@@ -1,10 +1,5 @@
 package net.minecraft.command;
 
-import java.util.Collections;
-import java.util.EnumSet;
-import java.util.List;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -12,6 +7,12 @@ import net.minecraft.network.play.server.SPacketPlayerPosLook;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.EnumSet;
+import java.util.List;
+import java.util.Set;
 
 public class CommandTP extends CommandBase
 {

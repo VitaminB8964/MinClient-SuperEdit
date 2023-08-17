@@ -2,13 +2,7 @@ package net.minecraft.block;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
-import java.util.EnumSet;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockFaceShape;
@@ -18,17 +12,18 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.EnumParticleTypes;
-import net.minecraft.util.IStringSerializable;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.Rotation;
+import net.minecraft.util.*;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.EnumSet;
+import java.util.List;
+import java.util.Random;
+import java.util.Set;
 
 public class BlockRedstoneWire extends Block
 {

@@ -1,9 +1,7 @@
 package net.minecraft.entity.effect;
 
-import java.util.List;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.nbt.NBTTagCompound;
@@ -12,6 +10,8 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class EntityLightningBolt extends EntityWeatherEffect
 {

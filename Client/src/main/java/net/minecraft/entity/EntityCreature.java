@@ -1,12 +1,13 @@
 package net.minecraft.entity;
 
-import java.util.UUID;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.passive.EntityTameable;
 import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+
+import java.util.UUID;
 
 public abstract class EntityCreature extends EntityLiving
 {

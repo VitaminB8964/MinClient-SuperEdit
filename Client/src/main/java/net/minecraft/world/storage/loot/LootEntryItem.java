@@ -3,8 +3,6 @@ package net.minecraft.world.storage.loot;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
-import java.util.Collection;
-import java.util.Random;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.JsonUtils;
@@ -12,6 +10,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import net.minecraft.world.storage.loot.conditions.LootConditionManager;
 import net.minecraft.world.storage.loot.functions.LootFunction;
+
+import java.util.Collection;
+import java.util.Random;
 
 public class LootEntryItem extends LootEntry
 {

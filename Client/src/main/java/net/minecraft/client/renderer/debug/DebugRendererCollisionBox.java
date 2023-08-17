@@ -1,12 +1,13 @@
 package net.minecraft.client.renderer.debug;
 
-import java.util.List;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderGlobal;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class DebugRendererCollisionBox implements DebugRenderer.IDebugRenderer
 {

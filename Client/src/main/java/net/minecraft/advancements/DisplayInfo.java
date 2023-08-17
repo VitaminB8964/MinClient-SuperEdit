@@ -3,14 +3,15 @@ package net.minecraft.advancements;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import java.io.IOException;
-import javax.annotation.Nullable;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
 
 public class DisplayInfo
 {

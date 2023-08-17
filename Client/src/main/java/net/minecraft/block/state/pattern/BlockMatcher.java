@@ -1,9 +1,10 @@
 package net.minecraft.block.state.pattern;
 
 import com.google.common.base.Predicate;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
+
+import javax.annotation.Nullable;
 
 public class BlockMatcher implements Predicate<IBlockState>
 {

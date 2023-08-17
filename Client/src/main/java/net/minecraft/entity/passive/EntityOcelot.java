@@ -1,27 +1,10 @@
 package net.minecraft.entity.passive;
 
-import com.google.common.base.Predicate;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityAgeable;
-import net.minecraft.entity.EntityLiving;
-import net.minecraft.entity.IEntityLivingData;
-import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.entity.ai.EntityAIAvoidEntity;
-import net.minecraft.entity.ai.EntityAIFollowOwner;
-import net.minecraft.entity.ai.EntityAILeapAtTarget;
-import net.minecraft.entity.ai.EntityAIMate;
-import net.minecraft.entity.ai.EntityAIOcelotAttack;
-import net.minecraft.entity.ai.EntityAIOcelotSit;
-import net.minecraft.entity.ai.EntityAISit;
-import net.minecraft.entity.ai.EntityAISwimming;
-import net.minecraft.entity.ai.EntityAITargetNonTamed;
-import net.minecraft.entity.ai.EntityAITempt;
-import net.minecraft.entity.ai.EntityAIWanderAvoidWater;
-import net.minecraft.entity.ai.EntityAIWatchClosest;
+import net.minecraft.entity.*;
+import net.minecraft.entity.ai.*;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -41,6 +24,8 @@ import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
 
 public class EntityOcelot extends EntityTameable
 {

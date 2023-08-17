@@ -1,12 +1,11 @@
 package net.minecraft.util.math;
 
-import java.util.HashMap;
-import java.util.Random;
-import java.util.UUID;
-
 import guichaguri.betterfps.BetterFpsHelper;
 import guichaguri.betterfps.math.*;
 import net.optifine.util.MathUtils;
+
+import java.util.Random;
+import java.util.UUID;
 
 public class MathHelper {
     public static final float PI = MathUtils.roundToFloat(Math.PI);

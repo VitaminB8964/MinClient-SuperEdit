@@ -1,8 +1,6 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Lists;
-import java.util.Iterator;
-import java.util.List;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.ISound;
 import net.minecraft.client.audio.ISoundEventListener;
@@ -10,6 +8,9 @@ import net.minecraft.client.audio.SoundEventAccessor;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
+
+import java.util.Iterator;
+import java.util.List;
 
 public class GuiSubtitleOverlay extends Gui implements ISoundEventListener
 {

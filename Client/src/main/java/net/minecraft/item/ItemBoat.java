@@ -1,6 +1,5 @@
 package net.minecraft.item;
 
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
@@ -16,6 +15,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class ItemBoat extends Item
 {

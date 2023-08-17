@@ -3,11 +3,6 @@ package net.minecraft.world.gen.structure.template;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
@@ -16,11 +11,7 @@ import net.minecraft.entity.item.EntityPainting;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.inventory.IInventory;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.nbt.NBTTagDouble;
-import net.minecraft.nbt.NBTTagInt;
-import net.minecraft.nbt.NBTTagList;
-import net.minecraft.nbt.NBTUtil;
+import net.minecraft.nbt.*;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityStructure;
 import net.minecraft.util.Mirror;
@@ -35,6 +26,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.structure.StructureBoundingBox;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
 
 public class Template
 {

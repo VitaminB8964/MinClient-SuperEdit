@@ -1,9 +1,5 @@
 package net.minecraft.client.renderer;
 
-import java.nio.ByteBuffer;
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
-import javax.annotation.Nullable;
 import net.optifine.Config;
 import net.optifine.SmartAnimations;
 import net.optifine.render.GlAlphaState;
@@ -11,12 +7,13 @@ import net.optifine.render.GlBlendState;
 import net.optifine.shaders.Shaders;
 import net.optifine.util.LockCounter;
 import org.lwjgl.BufferUtils;
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.opengl.GL13;
-import org.lwjgl.opengl.GL12;
-import org.lwjgl.opengl.GL14;
-import org.lwjgl.opengl.GLContext;
+import org.lwjgl.opengl.*;
 import org.lwjgl.util.vector.Quaternion;
+
+import javax.annotation.Nullable;
+import java.nio.ByteBuffer;
+import java.nio.FloatBuffer;
+import java.nio.IntBuffer;
 
 public class GlStateManager
 {

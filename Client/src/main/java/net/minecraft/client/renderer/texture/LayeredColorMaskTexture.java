@@ -1,19 +1,20 @@
 package net.minecraft.client.renderer.texture;
 
-import java.awt.Graphics;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.List;
 import net.minecraft.client.resources.IResource;
 import net.minecraft.client.resources.IResourceManager;
 import net.minecraft.item.EnumDyeColor;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
+import net.optifine.Config;
 import net.optifine.shaders.ShadersTex;
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.util.List;
 
 public class LayeredColorMaskTexture extends AbstractTexture
 {

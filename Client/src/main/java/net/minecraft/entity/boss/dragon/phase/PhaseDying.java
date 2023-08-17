@@ -1,11 +1,12 @@
 package net.minecraft.entity.boss.dragon.phase;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.gen.feature.WorldGenEndPodium;
+
+import javax.annotation.Nullable;
 
 public class PhaseDying extends PhaseBase
 {

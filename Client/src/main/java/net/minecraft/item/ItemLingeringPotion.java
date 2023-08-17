@@ -1,7 +1,5 @@
 package net.minecraft.item;
 
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityPotion;
@@ -14,6 +12,9 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ItemLingeringPotion extends ItemPotion
 {

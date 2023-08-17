@@ -1,8 +1,5 @@
 package net.minecraft.command;
 
-import java.util.Collections;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.network.play.server.SPacketCustomSound;
 import net.minecraft.server.MinecraftServer;
@@ -10,6 +7,10 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 
 public class CommandPlaySound extends CommandBase
 {

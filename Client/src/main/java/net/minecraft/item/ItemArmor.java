@@ -2,8 +2,6 @@ package net.minecraft.item;
 
 import com.google.common.base.Predicates;
 import com.google.common.collect.Multimap;
-import java.util.List;
-import java.util.UUID;
 import net.minecraft.block.BlockDispenser;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.dispenser.BehaviorDefaultDispenseItem;
@@ -18,15 +16,13 @@ import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.EntitySelectors;
-import net.minecraft.util.EnumActionResult;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.SoundEvent;
+import net.minecraft.util.*;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.List;
+import java.util.UUID;
 
 public class ItemArmor extends Item
 {

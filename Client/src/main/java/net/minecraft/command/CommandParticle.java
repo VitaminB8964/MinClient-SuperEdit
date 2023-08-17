@@ -1,8 +1,5 @@
 package net.minecraft.command;
 
-import java.util.Collections;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.EnumParticleTypes;
@@ -10,6 +7,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 
 public class CommandParticle extends CommandBase
 {

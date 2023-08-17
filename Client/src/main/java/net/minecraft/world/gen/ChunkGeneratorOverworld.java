@@ -1,8 +1,5 @@
 package net.minecraft.world.gen;
 
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockFalling;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EnumCreatureType;
@@ -19,12 +16,11 @@ import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.chunk.ChunkPrimer;
 import net.minecraft.world.gen.feature.WorldGenDungeons;
 import net.minecraft.world.gen.feature.WorldGenLakes;
-import net.minecraft.world.gen.structure.MapGenMineshaft;
-import net.minecraft.world.gen.structure.MapGenScatteredFeature;
-import net.minecraft.world.gen.structure.MapGenStronghold;
-import net.minecraft.world.gen.structure.MapGenVillage;
-import net.minecraft.world.gen.structure.StructureOceanMonument;
-import net.minecraft.world.gen.structure.WoodlandMansion;
+import net.minecraft.world.gen.structure.*;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Random;
 
 public class ChunkGeneratorOverworld implements IChunkGenerator
 {

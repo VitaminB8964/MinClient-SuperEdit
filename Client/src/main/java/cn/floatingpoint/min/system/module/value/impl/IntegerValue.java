@@ -11,6 +11,7 @@ public class IntegerValue extends Value<Integer> {
         this(minimum, maximum, increment, value, () -> true);
     }
 
+
     public IntegerValue(Integer minimum, Integer maximum, Integer increment, Integer value, Supplier<Boolean> displayable) {
         super(value, displayable);
         this.minimum = minimum;

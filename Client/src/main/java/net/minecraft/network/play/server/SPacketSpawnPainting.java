@@ -1,13 +1,14 @@
 package net.minecraft.network.play.server;
 
-import java.io.IOException;
-import java.util.UUID;
 import net.minecraft.entity.item.EntityPainting;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayClient;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+
+import java.io.IOException;
+import java.util.UUID;
 
 public class SPacketSpawnPainting implements Packet<INetHandlerPlayClient>
 {

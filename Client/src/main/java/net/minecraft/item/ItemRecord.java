@@ -1,9 +1,6 @@
 package net.minecraft.item;
 
 import com.google.common.collect.Maps;
-import java.util.List;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockJukebox;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.util.ITooltipFlag;
@@ -18,6 +15,10 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Map;
 
 public class ItemRecord extends Item
 {

@@ -1,9 +1,7 @@
 package net.minecraft.entity.boss.dragon.phase;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.boss.EntityDragon;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityDragonFireball;
 import net.minecraft.pathfinding.Path;
 import net.minecraft.pathfinding.PathPoint;
@@ -12,6 +10,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
 
 public class PhaseStrafePlayer extends PhaseBase
 {

@@ -2,7 +2,6 @@ package net.minecraft.potion;
 
 import com.google.common.base.Predicate;
 import com.google.common.collect.Lists;
-import java.util.List;
 import net.minecraft.init.Items;
 import net.minecraft.init.PotionTypes;
 import net.minecraft.item.Item;
@@ -10,6 +9,8 @@ import net.minecraft.item.ItemFishFood;
 import net.minecraft.item.ItemPotion;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.Ingredient;
+
+import java.util.List;
 
 public class PotionHelper
 {

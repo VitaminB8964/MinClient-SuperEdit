@@ -1,7 +1,5 @@
 package net.minecraft.entity.item;
 
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
@@ -23,6 +21,9 @@ import net.minecraft.world.WorldServer;
 import net.minecraft.world.storage.loot.ILootContainer;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.LootTable;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public abstract class EntityMinecartContainer extends EntityMinecart implements ILockableContainer, ILootContainer
 {

@@ -1,19 +1,13 @@
 package net.minecraft.world.storage.loot.functions;
 
 import com.google.common.collect.Maps;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSerializer;
-import com.google.gson.JsonSyntaxException;
-import java.lang.reflect.Type;
-import java.util.Map;
+import com.google.gson.*;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
+
+import java.lang.reflect.Type;
+import java.util.Map;
 
 public class LootFunctionManager
 {

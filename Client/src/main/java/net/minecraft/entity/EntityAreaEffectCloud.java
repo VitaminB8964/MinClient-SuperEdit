@@ -2,12 +2,6 @@ package net.minecraft.entity;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.EnumPushReaction;
 import net.minecraft.init.PotionTypes;
 import net.minecraft.nbt.NBTTagCompound;
@@ -19,10 +13,16 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.potion.PotionType;
 import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.EnumParticleTypes;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.UUID;
 
 public class EntityAreaEffectCloud extends Entity
 {

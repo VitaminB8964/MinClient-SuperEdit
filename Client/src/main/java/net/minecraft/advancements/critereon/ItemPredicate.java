@@ -4,8 +4,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.Item;
@@ -14,6 +12,9 @@ import net.minecraft.potion.PotionType;
 import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nullable;
+import java.util.Map;
 
 public class ItemPredicate
 {

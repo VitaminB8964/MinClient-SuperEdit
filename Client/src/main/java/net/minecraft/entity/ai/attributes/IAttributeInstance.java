@@ -1,8 +1,8 @@
 package net.minecraft.entity.ai.attributes;
 
+import javax.annotation.Nullable;
 import java.util.Collection;
 import java.util.UUID;
-import javax.annotation.Nullable;
 
 public interface IAttributeInstance
 {

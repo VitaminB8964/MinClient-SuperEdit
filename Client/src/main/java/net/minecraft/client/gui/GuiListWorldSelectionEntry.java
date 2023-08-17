@@ -1,11 +1,5 @@
 package net.minecraft.client.gui;
 
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import javax.imageio.ImageIO;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.renderer.GlStateManager;
@@ -14,7 +8,6 @@ import net.minecraft.client.resources.I18n;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.TextFormatting;
-import net.minecraft.world.WorldSettings;
 import net.minecraft.world.storage.ISaveFormat;
 import net.minecraft.world.storage.ISaveHandler;
 import net.minecraft.world.storage.WorldInfo;
@@ -23,6 +16,13 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class GuiListWorldSelectionEntry implements GuiListExtended.IGuiListEntry
 {

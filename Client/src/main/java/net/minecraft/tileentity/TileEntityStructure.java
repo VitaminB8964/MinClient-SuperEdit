@@ -4,9 +4,6 @@ import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 import io.netty.buffer.ByteBuf;
-import java.util.List;
-import javax.annotation.Nullable;
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockStructure;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
@@ -15,14 +12,8 @@ import net.minecraft.init.Blocks;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.ChatAllowedCharacters;
-import net.minecraft.util.IStringSerializable;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.util.Rotation;
-import net.minecraft.util.StringUtils;
+import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentTranslation;
@@ -31,6 +22,9 @@ import net.minecraft.world.gen.structure.StructureBoundingBox;
 import net.minecraft.world.gen.structure.template.PlacementSettings;
 import net.minecraft.world.gen.structure.template.Template;
 import net.minecraft.world.gen.structure.template.TemplateManager;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class TileEntityStructure extends TileEntity
 {

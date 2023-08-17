@@ -3,8 +3,8 @@ package net.minecraft.network;
 import net.minecraft.network.play.server.SPacketJoinGame;
 import net.minecraft.network.play.server.SPacketPlayerPosLook;
 import net.minecraft.network.play.server.SPacketRespawn;
-import net.optifine.Config;
 import net.minecraft.util.IThreadListener;
+import net.optifine.Config;
 
 public class PacketThreadUtil
 {

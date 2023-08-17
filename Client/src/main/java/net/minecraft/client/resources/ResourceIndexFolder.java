@@ -1,7 +1,8 @@
 package net.minecraft.client.resources;
 
-import java.io.File;
 import net.minecraft.util.ResourceLocation;
+
+import java.io.File;
 
 public class ResourceIndexFolder extends ResourceIndex
 {

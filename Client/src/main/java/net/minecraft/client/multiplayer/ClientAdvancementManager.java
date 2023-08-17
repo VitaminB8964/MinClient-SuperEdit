@@ -1,9 +1,6 @@
 package net.minecraft.client.multiplayer;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementList;
 import net.minecraft.advancements.AdvancementProgress;
@@ -15,6 +12,10 @@ import net.minecraft.network.play.server.SPacketAdvancementInfo;
 import net.minecraft.util.ResourceLocation;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class ClientAdvancementManager
 {

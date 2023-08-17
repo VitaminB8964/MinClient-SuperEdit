@@ -1,6 +1,5 @@
 package net.minecraft.entity.monster;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
@@ -15,6 +14,8 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
 
 public class EntityHusk extends EntityZombie
 {

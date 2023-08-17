@@ -2,14 +2,15 @@ package net.minecraft.entity.ai;
 
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.pathfinding.Path;
 import net.minecraft.pathfinding.PathNavigate;
 import net.minecraft.util.EntitySelectors;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class EntityAIAvoidEntity<T extends Entity> extends EntityAIBase
 {

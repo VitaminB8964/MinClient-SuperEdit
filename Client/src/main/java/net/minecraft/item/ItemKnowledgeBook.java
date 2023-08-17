@@ -1,7 +1,6 @@
 package net.minecraft.item;
 
 import com.google.common.collect.Lists;
-import java.util.List;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
@@ -15,6 +14,8 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.List;
 
 public class ItemKnowledgeBook extends Item
 {

@@ -4,13 +4,14 @@ import com.google.common.base.Function;
 import com.google.common.base.Joiner;
 import com.google.common.collect.ImmutableTable;
 import com.google.common.collect.Iterables;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nullable;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Map.Entry;
 
 public abstract class BlockStateBase implements IBlockState
 {

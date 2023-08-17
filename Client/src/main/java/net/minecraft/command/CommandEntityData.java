@@ -1,12 +1,13 @@
 package net.minecraft.command;
 
-import java.util.UUID;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.JsonToNBT;
 import net.minecraft.nbt.NBTException;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.server.MinecraftServer;
+
+import java.util.UUID;
 
 public class CommandEntityData extends CommandBase
 {

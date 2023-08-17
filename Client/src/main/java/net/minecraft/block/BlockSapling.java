@@ -1,7 +1,5 @@
 package net.minecraft.block;
 
-import java.util.Random;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockStateContainer;
@@ -15,15 +13,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
-import net.minecraft.world.gen.feature.WorldGenBigTree;
-import net.minecraft.world.gen.feature.WorldGenBirchTree;
-import net.minecraft.world.gen.feature.WorldGenCanopyTree;
-import net.minecraft.world.gen.feature.WorldGenMegaJungle;
-import net.minecraft.world.gen.feature.WorldGenMegaPineTree;
-import net.minecraft.world.gen.feature.WorldGenSavannaTree;
-import net.minecraft.world.gen.feature.WorldGenTaiga2;
-import net.minecraft.world.gen.feature.WorldGenTrees;
-import net.minecraft.world.gen.feature.WorldGenerator;
+import net.minecraft.world.gen.feature.*;
+
+import java.util.Random;
 
 public class BlockSapling extends BlockBush implements IGrowable
 {

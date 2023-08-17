@@ -1,17 +1,14 @@
 package net.minecraft.entity;
 
-import java.util.Collection;
-import java.util.UUID;
-import javax.annotation.Nullable;
-import net.minecraft.entity.ai.attributes.AbstractAttributeMap;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.ai.attributes.IAttribute;
-import net.minecraft.entity.ai.attributes.IAttributeInstance;
-import net.minecraft.entity.ai.attributes.RangedAttribute;
+import net.minecraft.entity.ai.attributes.*;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.util.Collection;
+import java.util.UUID;
 
 public class SharedMonsterAttributes
 {

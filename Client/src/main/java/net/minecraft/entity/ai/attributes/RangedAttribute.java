@@ -1,7 +1,8 @@
 package net.minecraft.entity.ai.attributes;
 
-import javax.annotation.Nullable;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
 
 public class RangedAttribute extends BaseAttribute
 {

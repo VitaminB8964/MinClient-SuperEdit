@@ -1,17 +1,7 @@
 package net.minecraft.world.storage.loot.functions;
 
 import com.google.common.collect.Lists;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSyntaxException;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
+import com.google.gson.*;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentData;
 import net.minecraft.init.Items;
@@ -24,6 +14,11 @@ import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 public class EnchantRandomly extends LootFunction
 {

@@ -2,13 +2,14 @@ package net.minecraft.client.renderer.block.model;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import net.optifine.ItemOverrideCache;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ItemOverrideList
 {

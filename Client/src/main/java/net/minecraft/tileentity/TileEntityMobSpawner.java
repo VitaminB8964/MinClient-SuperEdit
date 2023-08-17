@@ -1,6 +1,5 @@
 package net.minecraft.tileentity;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.nbt.NBTTagCompound;
@@ -15,6 +14,8 @@ import net.minecraft.util.datafix.IDataFixer;
 import net.minecraft.util.datafix.IDataWalker;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class TileEntityMobSpawner extends TileEntity implements ITickable
 {

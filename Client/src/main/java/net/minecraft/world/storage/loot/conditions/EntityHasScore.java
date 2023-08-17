@@ -5,10 +5,6 @@ import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-import java.util.Map.Entry;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.scoreboard.ScoreObjective;
@@ -17,6 +13,11 @@ import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.RandomValueRange;
+
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Random;
+import java.util.Set;
 
 public class EntityHasScore implements LootCondition
 {

@@ -6,16 +6,17 @@ import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
+import net.minecraft.client.resources.data.MetadataSerializer;
+import net.minecraft.util.ResourceLocation;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import javax.annotation.Nullable;
-import net.minecraft.client.resources.data.MetadataSerializer;
-import net.minecraft.util.ResourceLocation;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class SimpleReloadableResourceManager implements IReloadableResourceManager
 {

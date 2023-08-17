@@ -1,7 +1,5 @@
 package net.minecraft.world.biome;
 
-import java.util.Iterator;
-import java.util.Random;
 import net.minecraft.entity.monster.EntityPolarBear;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.entity.monster.EntityStray;
@@ -13,6 +11,9 @@ import net.minecraft.world.gen.feature.WorldGenAbstractTree;
 import net.minecraft.world.gen.feature.WorldGenIcePath;
 import net.minecraft.world.gen.feature.WorldGenIceSpike;
 import net.minecraft.world.gen.feature.WorldGenTaiga2;
+
+import java.util.Iterator;
+import java.util.Random;
 
 public class BiomeSnow extends Biome
 {

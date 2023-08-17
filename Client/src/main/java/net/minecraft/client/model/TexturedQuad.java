@@ -3,8 +3,8 @@ package net.minecraft.client.model;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
-import net.optifine.Config;
 import net.minecraft.util.math.Vec3d;
+import net.optifine.Config;
 import net.optifine.shaders.SVertexFormat;
 
 public class TexturedQuad

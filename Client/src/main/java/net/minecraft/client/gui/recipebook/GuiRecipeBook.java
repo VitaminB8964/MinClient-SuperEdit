@@ -3,10 +3,6 @@ package net.minecraft.client.gui.recipebook;
 import com.google.common.collect.Lists;
 import it.unimi.dsi.fastutil.objects.ObjectLinkedOpenHashSet;
 import it.unimi.dsi.fastutil.objects.ObjectSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Locale;
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiButtonToggle;
@@ -32,6 +28,11 @@ import net.minecraft.network.play.client.CPacketRecipeInfo;
 import net.minecraft.stats.RecipeBook;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.input.Keyboard;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Locale;
 
 public class GuiRecipeBook extends Gui implements IRecipeUpdateListener
 {

@@ -2,9 +2,13 @@ package cn.floatingpoint.min.utils.render;
 
 import cn.floatingpoint.min.utils.math.IOUtil;
 import net.minecraft.client.Minecraft;
-import net.minecraft.util.*;
-import java.io.*;
-import org.lwjgl.opengl.*;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.GL20;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class ShaderUtil {
     private static final Minecraft mc = Minecraft.getMinecraft();

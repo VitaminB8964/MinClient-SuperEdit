@@ -6,11 +6,6 @@ import cn.floatingpoint.min.utils.client.WebUtil;
 import com.google.common.collect.Maps;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.minecraft.MinecraftProfileTexture.Type;
-
-import java.io.IOException;
-import java.net.URISyntaxException;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.DefaultPlayerSkin;
 import net.minecraft.network.play.server.SPacketPlayerListItem;
@@ -20,6 +15,11 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.GameType;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.util.Map;
 
 public class NetworkPlayerInfo
 {

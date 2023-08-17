@@ -1,5 +1,17 @@
 package net.minecraft.client.renderer;
 
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
+import net.minecraft.client.settings.GameSettings;
+import net.minecraft.util.Util;
+import net.optifine.Config;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.lwjgl.Sys;
+import org.lwjgl.opengl.*;
+import oshi.SystemInfo;
+import oshi.hardware.Processor;
+
 import java.io.File;
 import java.io.IOException;
 import java.net.URI;
@@ -9,34 +21,6 @@ import java.nio.IntBuffer;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
-import net.minecraft.client.settings.GameSettings;
-import net.optifine.Config;
-import net.minecraft.util.Util;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.lwjgl.Sys;
-import org.lwjgl.opengl.ARBCopyBuffer;
-import org.lwjgl.opengl.ARBFramebufferObject;
-import org.lwjgl.opengl.ARBMultitexture;
-import org.lwjgl.opengl.ARBShaderObjects;
-import org.lwjgl.opengl.ARBVertexBufferObject;
-import org.lwjgl.opengl.ARBVertexShader;
-import org.lwjgl.opengl.ContextCapabilities;
-import org.lwjgl.opengl.EXTBlendFuncSeparate;
-import org.lwjgl.opengl.EXTFramebufferObject;
-import org.lwjgl.opengl.GL11;
-import org.lwjgl.opengl.GL13;
-import org.lwjgl.opengl.GL14;
-import org.lwjgl.opengl.GL15;
-import org.lwjgl.opengl.GL20;
-import org.lwjgl.opengl.GL30;
-import org.lwjgl.opengl.GL31;
-import org.lwjgl.opengl.GLContext;
-import oshi.SystemInfo;
-import oshi.hardware.Processor;
 
 public class OpenGlHelper {
     /**

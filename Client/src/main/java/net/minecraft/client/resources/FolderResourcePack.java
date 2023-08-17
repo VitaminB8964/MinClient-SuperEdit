@@ -2,16 +2,12 @@ package net.minecraft.client.resources;
 
 import com.google.common.base.CharMatcher;
 import com.google.common.collect.Sets;
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileFilter;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.util.Util;
 import org.apache.commons.io.filefilter.DirectoryFileFilter;
+
+import javax.annotation.Nullable;
+import java.io.*;
+import java.util.Set;
 
 public class FolderResourcePack extends AbstractResourcePack
 {

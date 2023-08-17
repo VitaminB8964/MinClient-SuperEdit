@@ -1,15 +1,14 @@
 package net.minecraft.util;
 
 import com.google.common.collect.Lists;
-
-import java.util.List;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiTextField;
 import net.minecraft.network.play.client.CPacketTabComplete;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.util.List;
 
 public abstract class TabCompleter {
     /**

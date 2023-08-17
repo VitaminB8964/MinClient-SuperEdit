@@ -1,9 +1,6 @@
 package net.minecraft.world.storage;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
 import net.minecraft.crash.CrashReportCategory;
 import net.minecraft.crash.ICrashReportDetail;
 import net.minecraft.nbt.NBTTagCompound;
@@ -13,12 +10,11 @@ import net.minecraft.util.datafix.FixTypes;
 import net.minecraft.util.datafix.IDataFixer;
 import net.minecraft.util.datafix.IDataWalker;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.DimensionType;
-import net.minecraft.world.EnumDifficulty;
-import net.minecraft.world.GameRules;
-import net.minecraft.world.GameType;
-import net.minecraft.world.WorldSettings;
-import net.minecraft.world.WorldType;
+import net.minecraft.world.*;
+
+import javax.annotation.Nullable;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class WorldInfo
 {

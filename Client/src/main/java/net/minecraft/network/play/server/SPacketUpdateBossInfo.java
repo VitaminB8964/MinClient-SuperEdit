@@ -1,12 +1,13 @@
 package net.minecraft.network.play.server;
 
-import java.io.IOException;
-import java.util.UUID;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayClient;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.BossInfo;
+
+import java.io.IOException;
+import java.util.UUID;
 
 public class SPacketUpdateBossInfo implements Packet<INetHandlerPlayClient>
 {

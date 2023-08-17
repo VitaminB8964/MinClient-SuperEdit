@@ -2,9 +2,6 @@ package net.minecraft.world.storage;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.List;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.entity.item.EntityItemFrame;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -15,6 +12,10 @@ import net.minecraft.network.play.server.SPacketMaps;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Map;
 
 public class MapData extends WorldSavedData
 {

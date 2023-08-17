@@ -1,6 +1,5 @@
 package net.minecraft.entity.projectile;
 
-import java.util.List;
 import net.minecraft.entity.EntityAreaEffectCloud;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.MobEffects;
@@ -11,6 +10,8 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class EntityDragonFireball extends EntityFireball
 {

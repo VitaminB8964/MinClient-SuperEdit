@@ -3,9 +3,6 @@ package net.minecraft.network.play.server;
 import com.google.common.collect.Lists;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import java.io.IOException;
-import java.util.List;
-import java.util.Map.Entry;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
@@ -14,6 +11,10 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.chunk.storage.ExtendedBlockStorage;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Map.Entry;
 
 public class SPacketChunkData implements Packet<INetHandlerPlayClient>
 {

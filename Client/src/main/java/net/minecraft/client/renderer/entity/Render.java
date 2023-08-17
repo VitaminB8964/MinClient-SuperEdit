@@ -1,7 +1,5 @@
 package net.minecraft.client.renderer.entity;
 
-import javax.annotation.Nullable;
-
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.module.impl.misc.impl.RankDisplay;
 import cn.floatingpoint.min.utils.client.CheatDetection;
@@ -21,7 +19,6 @@ import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.potion.Potion;
 import net.minecraft.scoreboard.ScorePlayerTeam;
-import net.optifine.Config;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.ResourceLocation;
@@ -29,9 +26,11 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+import net.optifine.Config;
 import net.optifine.entity.model.IEntityRenderer;
 import net.optifine.shaders.Shaders;
 
+import javax.annotation.Nullable;
 import java.util.Objects;
 
 public abstract class Render<T extends Entity> implements IEntityRenderer {

@@ -1,15 +1,16 @@
 package net.minecraft.command;
 
 import com.google.common.collect.Lists;
-import java.util.Collections;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 
 public class RecipeCommand extends CommandBase
 {

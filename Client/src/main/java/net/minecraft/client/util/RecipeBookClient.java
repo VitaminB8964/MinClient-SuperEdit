@@ -4,16 +4,16 @@ import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.function.Function;
 import net.minecraft.client.gui.recipebook.RecipeList;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.stats.RecipeBook;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
 public class RecipeBookClient extends RecipeBook
 {

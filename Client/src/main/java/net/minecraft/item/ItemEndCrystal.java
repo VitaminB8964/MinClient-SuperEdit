@@ -1,6 +1,5 @@
 package net.minecraft.item;
 
-import java.util.List;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
@@ -15,6 +14,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldProviderEnd;
 import net.minecraft.world.end.DragonFightManager;
+
+import java.util.List;
 
 public class ItemEndCrystal extends Item
 {

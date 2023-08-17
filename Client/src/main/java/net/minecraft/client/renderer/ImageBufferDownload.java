@@ -1,11 +1,9 @@
 package net.minecraft.client.renderer;
 
-import java.awt.Color;
-import java.awt.Graphics;
+import javax.annotation.Nullable;
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
-import java.awt.image.ImageObserver;
-import javax.annotation.Nullable;
 
 public class ImageBufferDownload implements IImageBuffer
 {

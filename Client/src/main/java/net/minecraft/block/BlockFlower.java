@@ -3,8 +3,6 @@ package net.minecraft.block;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
 import com.google.common.collect.Lists;
-import java.util.Collection;
-import javax.annotation.Nullable;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
@@ -17,6 +15,9 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nullable;
+import java.util.Collection;
 
 public abstract class BlockFlower extends BlockBush
 {

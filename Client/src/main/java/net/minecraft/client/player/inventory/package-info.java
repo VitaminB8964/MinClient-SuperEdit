@@ -3,4 +3,5 @@
 package net.minecraft.client.player.inventory;
 
 import mcp.MethodsReturnNonnullByDefault;
+
 import javax.annotation.ParametersAreNonnullByDefault;

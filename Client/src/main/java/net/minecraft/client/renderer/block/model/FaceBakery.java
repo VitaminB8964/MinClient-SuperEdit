@@ -1,18 +1,19 @@
 package net.minecraft.client.renderer.block.model;
 
-import javax.annotation.Nullable;
 import net.minecraft.client.renderer.EnumFaceDirection;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
-import net.optifine.Config;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3i;
 import net.minecraftforge.common.model.ITransformation;
+import net.optifine.Config;
 import net.optifine.model.BlockModelUtils;
 import net.optifine.shaders.Shaders;
 import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector3f;
 import org.lwjgl.util.vector.Vector4f;
+
+import javax.annotation.Nullable;
 
 public class FaceBakery
 {

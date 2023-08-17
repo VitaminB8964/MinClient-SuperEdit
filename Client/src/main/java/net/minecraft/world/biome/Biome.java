@@ -1,10 +1,6 @@
 package net.minecraft.world.biome;
 
 import com.google.common.collect.Lists;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.block.BlockSand;
 import net.minecraft.block.BlockTallGrass;
@@ -12,20 +8,8 @@ import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EnumCreatureType;
-import net.minecraft.entity.monster.EntityCreeper;
-import net.minecraft.entity.monster.EntityEnderman;
-import net.minecraft.entity.monster.EntitySkeleton;
-import net.minecraft.entity.monster.EntitySlime;
-import net.minecraft.entity.monster.EntitySpider;
-import net.minecraft.entity.monster.EntityWitch;
-import net.minecraft.entity.monster.EntityZombie;
-import net.minecraft.entity.monster.EntityZombieVillager;
-import net.minecraft.entity.passive.EntityBat;
-import net.minecraft.entity.passive.EntityChicken;
-import net.minecraft.entity.passive.EntityCow;
-import net.minecraft.entity.passive.EntityPig;
-import net.minecraft.entity.passive.EntitySheep;
-import net.minecraft.entity.passive.EntitySquid;
+import net.minecraft.entity.monster.*;
+import net.minecraft.entity.passive.*;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.ObjectIntIdentityMap;
 import net.minecraft.util.ResourceLocation;
@@ -38,15 +22,12 @@ import net.minecraft.world.ColorizerGrass;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.ChunkPrimer;
 import net.minecraft.world.gen.NoiseGeneratorPerlin;
-import net.minecraft.world.gen.feature.WorldGenAbstractTree;
-import net.minecraft.world.gen.feature.WorldGenBigTree;
-import net.minecraft.world.gen.feature.WorldGenDoublePlant;
-import net.minecraft.world.gen.feature.WorldGenSwamp;
-import net.minecraft.world.gen.feature.WorldGenTallGrass;
-import net.minecraft.world.gen.feature.WorldGenTrees;
-import net.minecraft.world.gen.feature.WorldGenerator;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import net.minecraft.world.gen.feature.*;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 public abstract class Biome
 {

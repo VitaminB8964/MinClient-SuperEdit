@@ -1,12 +1,13 @@
 package net.minecraft.client.main;
 
 import com.mojang.authlib.properties.PropertyMap;
-import java.io.File;
-import java.net.Proxy;
-import javax.annotation.Nullable;
 import net.minecraft.client.resources.ResourceIndex;
 import net.minecraft.client.resources.ResourceIndexFolder;
 import net.minecraft.util.Session;
+
+import javax.annotation.Nullable;
+import java.io.File;
+import java.net.Proxy;
 
 public class GameConfiguration
 {

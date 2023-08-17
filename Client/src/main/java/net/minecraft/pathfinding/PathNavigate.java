@@ -1,6 +1,5 @@
 package net.minecraft.pathfinding;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
@@ -14,6 +13,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.ChunkCache;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public abstract class PathNavigate
 {

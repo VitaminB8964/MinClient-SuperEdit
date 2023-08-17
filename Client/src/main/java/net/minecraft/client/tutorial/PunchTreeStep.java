@@ -1,7 +1,6 @@
 package net.minecraft.client.tutorial;
 
 import com.google.common.collect.Sets;
-import java.util.Set;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -14,6 +13,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.GameType;
+
+import java.util.Set;
 
 public class PunchTreeStep implements ITutorialStep
 {

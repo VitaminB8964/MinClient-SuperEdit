@@ -1,13 +1,10 @@
 package net.minecraft.entity.projectile;
 
 import com.google.common.base.Predicate;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityAreaEffectCloud;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.monster.EntityBlaze;
 import net.minecraft.entity.monster.EntityEnderman;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.init.PotionTypes;
@@ -31,6 +28,9 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class EntityPotion extends EntityThrowable
 {

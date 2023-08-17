@@ -1,7 +1,5 @@
 package net.minecraft.entity.projectile;
 
-import java.util.List;
-
 import cn.floatingpoint.min.system.module.impl.render.impl.Particles;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLiquid;
@@ -23,15 +21,13 @@ import net.minecraft.network.datasync.DataSerializers;
 import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.stats.StatList;
 import net.minecraft.util.EnumParticleTypes;
-import net.minecraft.util.math.AxisAlignedBB;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.RayTraceResult;
-import net.minecraft.util.math.Vec3d;
+import net.minecraft.util.math.*;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import java.util.List;
 
 public class EntityFishHook extends Entity {
     private static final DataParameter<Integer> DATA_HOOKED_ENTITY = EntityDataManager.createKey(EntityFishHook.class, DataSerializers.VARINT);

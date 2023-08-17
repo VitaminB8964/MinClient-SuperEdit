@@ -1,7 +1,5 @@
 package net.minecraft.client.gui.recipebook;
 
-import java.util.List;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
@@ -13,6 +11,8 @@ import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.stats.RecipeBook;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.List;
 
 public class GuiButtonRecipe extends GuiButton {
     private static final ResourceLocation RECIPE_BOOK = new ResourceLocation("textures/gui/recipe_book.png");

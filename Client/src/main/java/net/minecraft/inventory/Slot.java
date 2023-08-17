@@ -1,8 +1,9 @@
 package net.minecraft.inventory;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nullable;
 
 public class Slot
 {

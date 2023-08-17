@@ -1,7 +1,5 @@
 package net.minecraft.network.play.client;
 
-import java.io.IOException;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
@@ -9,6 +7,9 @@ import net.minecraft.network.play.INetHandlerPlayServer;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
 
 public class CPacketUseEntity implements Packet<INetHandlerPlayServer>
 {

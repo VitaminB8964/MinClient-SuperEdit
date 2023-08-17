@@ -1,6 +1,5 @@
 package net.minecraft.tileentity;
 
-import java.util.Random;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
@@ -12,6 +11,8 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.datafix.FixTypes;
 import net.minecraft.util.datafix.walkers.ItemStackDataLists;
+
+import java.util.Random;
 
 public class TileEntityDispenser extends TileEntityLockableLoot
 {

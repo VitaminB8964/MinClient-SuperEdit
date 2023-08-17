@@ -2,11 +2,6 @@ package net.minecraft.client.multiplayer;
 
 import cn.floatingpoint.min.management.Managers;
 import com.google.common.collect.Sets;
-
-import java.util.Random;
-import java.util.Set;
-import javax.annotation.Nullable;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -29,7 +24,6 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.Packet;
 import net.minecraft.profiler.Profiler;
 import net.minecraft.scoreboard.Scoreboard;
-import net.optifine.Config;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
@@ -37,21 +31,20 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.TextComponentString;
-import net.minecraft.world.DimensionType;
-import net.minecraft.world.EnumDifficulty;
-import net.minecraft.world.EnumSkyBlock;
-import net.minecraft.world.GameType;
-import net.minecraft.world.World;
-import net.minecraft.world.WorldProvider;
-import net.minecraft.world.WorldSettings;
+import net.minecraft.world.*;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.storage.SaveDataMemoryStorage;
 import net.minecraft.world.storage.SaveHandlerMP;
 import net.minecraft.world.storage.WorldInfo;
+import net.optifine.Config;
 import net.optifine.CustomGuis;
 import net.optifine.DynamicLights;
 import net.optifine.override.PlayerControllerOF;
+
+import javax.annotation.Nullable;
+import java.util.Random;
+import java.util.Set;
 
 public class WorldClient extends World {
     /**

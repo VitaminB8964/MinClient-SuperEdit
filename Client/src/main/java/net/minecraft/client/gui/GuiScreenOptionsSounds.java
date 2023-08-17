@@ -1,6 +1,5 @@
 package net.minecraft.client.gui;
 
-import java.io.IOException;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.audio.SoundHandler;
@@ -10,6 +9,8 @@ import net.minecraft.client.settings.GameSettings;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.MathHelper;
+
+import java.io.IOException;
 
 public class GuiScreenOptionsSounds extends GuiScreen
 {

@@ -1,15 +1,12 @@
 package net.minecraft.client.renderer.entity;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
 import net.minecraft.client.model.ModelHorse;
 import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.entity.passive.AbstractHorse;
-import net.minecraft.entity.passive.EntityDonkey;
-import net.minecraft.entity.passive.EntityMule;
-import net.minecraft.entity.passive.EntitySkeletonHorse;
-import net.minecraft.entity.passive.EntityZombieHorse;
+import net.minecraft.entity.passive.*;
 import net.minecraft.util.ResourceLocation;
+
+import java.util.Map;
 
 public class RenderAbstractHorse extends RenderLiving<AbstractHorse>
 {

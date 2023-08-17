@@ -1,8 +1,6 @@
 package net.minecraft.block;
 
-import java.util.Random;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyInteger;
 import net.minecraft.block.state.BlockFaceShape;
 import net.minecraft.block.state.BlockStateContainer;
@@ -24,6 +22,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.EnumSkyBlock;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import java.util.Random;
 
 public class BlockDaylightDetector extends BlockContainer
 {

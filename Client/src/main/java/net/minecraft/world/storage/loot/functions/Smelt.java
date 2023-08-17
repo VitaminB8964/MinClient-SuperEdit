@@ -3,7 +3,6 @@ package net.minecraft.world.storage.loot.functions;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
-import java.util.Random;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.util.ResourceLocation;
@@ -11,6 +10,8 @@ import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.Random;
 
 public class Smelt extends LootFunction
 {

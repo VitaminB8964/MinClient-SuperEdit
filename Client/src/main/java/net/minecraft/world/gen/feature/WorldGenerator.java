@@ -1,9 +1,10 @@
 package net.minecraft.world.gen.feature;
 
-import java.util.Random;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.Random;
 
 public abstract class WorldGenerator
 {

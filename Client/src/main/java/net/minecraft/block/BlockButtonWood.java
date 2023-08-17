@@ -1,11 +1,12 @@
 package net.minecraft.block;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class BlockButtonWood extends BlockButton
 {

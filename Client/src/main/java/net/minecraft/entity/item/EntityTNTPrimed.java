@@ -1,7 +1,5 @@
 package net.minecraft.entity.item;
 
-import javax.annotation.Nullable;
-
 import cn.floatingpoint.min.system.module.impl.render.impl.TNTTimer;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -13,6 +11,8 @@ import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class EntityTNTPrimed extends Entity {
     private static final DataParameter<Integer> FUSE = EntityDataManager.createKey(EntityTNTPrimed.class, DataSerializers.VARINT);

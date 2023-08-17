@@ -1,8 +1,6 @@
 package net.minecraft.entity.item;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockAnvil;
 import net.minecraft.block.BlockFalling;
@@ -29,6 +27,9 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class EntityFallingBlock extends Entity
 {

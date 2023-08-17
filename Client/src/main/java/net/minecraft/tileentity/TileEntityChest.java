@@ -1,16 +1,11 @@
 package net.minecraft.tileentity;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockChest;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.SoundEvents;
-import net.minecraft.inventory.Container;
-import net.minecraft.inventory.ContainerChest;
-import net.minecraft.inventory.IInventory;
-import net.minecraft.inventory.InventoryLargeChest;
-import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.inventory.*;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumFacing;
@@ -22,6 +17,8 @@ import net.minecraft.util.datafix.FixTypes;
 import net.minecraft.util.datafix.walkers.ItemStackDataLists;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nullable;
 
 public class TileEntityChest extends TileEntityLockableLoot implements ITickable
 {

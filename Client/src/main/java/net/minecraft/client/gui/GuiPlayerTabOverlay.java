@@ -5,12 +5,6 @@ import cn.floatingpoint.min.utils.client.CheatDetection;
 import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.Ordering;
 import com.mojang.authlib.GameProfile;
-
-import java.util.Comparator;
-import java.util.List;
-import java.util.Objects;
-import javax.annotation.Nullable;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.network.NetHandlerPlayClient;
 import net.minecraft.client.network.NetworkPlayerInfo;
@@ -25,6 +19,11 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.GameType;
+
+import javax.annotation.Nullable;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Objects;
 
 public class GuiPlayerTabOverlay extends Gui {
     private static final Ordering<NetworkPlayerInfo> ENTRY_ORDERING = Ordering.from(new GuiPlayerTabOverlay.PlayerComparator());

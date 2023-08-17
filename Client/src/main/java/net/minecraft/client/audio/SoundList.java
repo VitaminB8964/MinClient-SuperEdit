@@ -1,7 +1,7 @@
 package net.minecraft.client.audio;
 
-import java.util.List;
 import javax.annotation.Nullable;
+import java.util.List;
 
 public class SoundList
 {

@@ -1,7 +1,5 @@
 package net.minecraft.tileentity;
 
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockShulkerBox;
 import net.minecraft.block.material.EnumPushReaction;
@@ -27,6 +25,9 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.datafix.FixTypes;
 import net.minecraft.util.datafix.walkers.ItemStackDataLists;
 import net.minecraft.util.math.AxisAlignedBB;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class TileEntityShulkerBox extends TileEntityLockableLoot implements ITickable, ISidedInventory
 {

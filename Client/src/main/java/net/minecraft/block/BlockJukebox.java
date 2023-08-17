@@ -2,7 +2,6 @@ package net.minecraft.block;
 
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
@@ -17,7 +16,6 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
-import net.minecraft.util.SoundEvent;
 import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.datafix.FixTypes;
 import net.minecraft.util.datafix.walkers.ItemStackData;

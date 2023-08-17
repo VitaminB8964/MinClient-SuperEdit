@@ -1,6 +1,5 @@
 package net.minecraft.world.biome;
 
-import java.util.Random;
 import net.minecraft.block.BlockDoublePlant;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.entity.passive.EntityDonkey;
@@ -8,6 +7,8 @@ import net.minecraft.entity.passive.EntityHorse;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
+
+import java.util.Random;
 
 public class BiomePlains extends Biome
 {

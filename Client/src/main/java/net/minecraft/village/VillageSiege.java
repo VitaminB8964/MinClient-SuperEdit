@@ -1,10 +1,6 @@
 package net.minecraft.village;
 
-import java.util.Iterator;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLiving;
-import net.minecraft.entity.IEntityLivingData;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;
@@ -12,6 +8,10 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEntitySpawner;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
 
 public class VillageSiege
 {

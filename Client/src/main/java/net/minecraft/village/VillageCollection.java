@@ -1,9 +1,6 @@
 package net.minecraft.village;
 
 import com.google.common.collect.Lists;
-import java.util.Iterator;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDoor;
 import net.minecraft.block.material.Material;
@@ -15,6 +12,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldProvider;
 import net.minecraft.world.storage.WorldSavedData;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
 
 public class VillageCollection extends WorldSavedData
 {

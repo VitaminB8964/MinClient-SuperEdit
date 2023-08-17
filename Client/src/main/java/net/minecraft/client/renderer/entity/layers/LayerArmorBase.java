@@ -1,9 +1,6 @@
 package net.minecraft.client.renderer.entity.layers;
 
 import com.google.common.collect.Maps;
-
-import java.util.Map;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.renderer.GlStateManager;
@@ -12,11 +9,13 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
+import net.optifine.Config;
 import net.optifine.CustomItems;
 import net.optifine.shaders.Shaders;
 import net.optifine.shaders.ShadersRender;
+
+import java.util.Map;
 
 public abstract class LayerArmorBase<T extends ModelBase> implements LayerRenderer<EntityLivingBase> {
     protected static final ResourceLocation ENCHANTED_ITEM_GLINT_RES = new ResourceLocation("textures/misc/enchanted_item_glint.png");

@@ -1,13 +1,14 @@
 package net.minecraft.entity.ai;
 
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.pathfinding.PathNavigate;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class RandomPositionGenerator
 {

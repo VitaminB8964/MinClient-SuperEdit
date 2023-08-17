@@ -2,13 +2,6 @@ package net.minecraft.tileentity;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.Set;
-import javax.annotation.Nullable;
-
 import guichaguri.betterfps.BetterFpsHelper;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.block.Block;
@@ -35,6 +28,12 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
+
+import javax.annotation.Nullable;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
 
 public class TileEntityBeacon extends TileEntityLockable implements ITickable, ISidedInventory {
     /**

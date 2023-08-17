@@ -8,6 +8,7 @@ public class ModeValue extends Value<String> {
     private final String[] modes;
 
     public ModeValue(String[] modes, String value) {
+
         this(modes, value, () -> true);
     }
 

@@ -1,6 +1,5 @@
 package net.minecraft.creativetab;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockDoublePlant;
 import net.minecraft.enchantment.EnumEnchantmentType;
 import net.minecraft.init.Blocks;
@@ -10,6 +9,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.NonNullList;
+
+import javax.annotation.Nullable;
 
 public abstract class CreativeTabs
 {

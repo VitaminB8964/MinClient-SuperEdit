@@ -1,8 +1,5 @@
 package net.minecraft.entity.projectile;
 
-import java.util.List;
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.IProjectile;
@@ -15,6 +12,10 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.UUID;
 
 public class EntityLlamaSpit extends Entity implements IProjectile
 {

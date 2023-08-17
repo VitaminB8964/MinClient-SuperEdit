@@ -1,8 +1,9 @@
 package net.minecraft.item;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public interface IItemPropertyGetter
 {

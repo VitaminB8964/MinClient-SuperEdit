@@ -1,7 +1,6 @@
 package net.minecraft.item;
 
 import com.google.common.collect.Sets;
-import java.util.Set;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -14,6 +13,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.Set;
 
 public class ItemSpade extends ItemTool
 {

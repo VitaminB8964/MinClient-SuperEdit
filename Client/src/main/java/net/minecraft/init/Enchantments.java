@@ -1,10 +1,9 @@
 package net.minecraft.init;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nonnull;
 
 public class Enchantments {
     public static final Enchantment PROTECTION = getRegisteredEnchantment("protection");

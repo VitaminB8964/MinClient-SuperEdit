@@ -1,8 +1,6 @@
 package net.minecraft.client.gui.inventory;
 
 import io.netty.buffer.Unpooled;
-import java.io.IOException;
-import javax.annotation.Nullable;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.GuiTextField;
@@ -13,8 +11,10 @@ import net.minecraft.tileentity.CommandBlockBaseLogic;
 import net.minecraft.util.ITabCompleter;
 import net.minecraft.util.TabCompleter;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.text.ITextComponent;
 import org.lwjgl.input.Keyboard;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
 
 public class GuiEditCommandBlockMinecart extends GuiScreen implements ITabCompleter
 {

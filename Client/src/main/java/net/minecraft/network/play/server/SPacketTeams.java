@@ -1,13 +1,14 @@
 package net.minecraft.network.play.server;
 
 import com.google.common.collect.Lists;
-import java.io.IOException;
-import java.util.Collection;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayClient;
 import net.minecraft.scoreboard.ScorePlayerTeam;
 import net.minecraft.scoreboard.Team;
+
+import java.io.IOException;
+import java.util.Collection;
 
 public class SPacketTeams implements Packet<INetHandlerPlayClient>
 {

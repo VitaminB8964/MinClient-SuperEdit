@@ -1,32 +1,7 @@
 package net.minecraft.advancements;
 
 import com.google.common.collect.Maps;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import java.io.BufferedReader;
-import java.io.Closeable;
-import java.io.File;
-import java.io.IOException;
-import java.io.Reader;
-import java.lang.reflect.Type;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URL;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.FileSystem;
-import java.nio.file.FileSystems;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.Map;
-import javax.annotation.Nullable;
+import com.google.gson.*;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.util.EnumTypeAdapterFactory;
 import net.minecraft.util.JsonUtils;
@@ -38,6 +13,20 @@ import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.lang.reflect.Type;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.*;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.Map;
 
 public class AdvancementManager
 {

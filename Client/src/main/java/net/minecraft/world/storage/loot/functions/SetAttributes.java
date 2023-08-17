@@ -1,15 +1,6 @@
 package net.minecraft.world.storage.loot.functions;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonPrimitive;
-import com.google.gson.JsonSerializationContext;
-import com.google.gson.JsonSyntaxException;
-import java.util.Random;
-import java.util.UUID;
-import javax.annotation.Nullable;
+import com.google.gson.*;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemStack;
@@ -20,6 +11,10 @@ import net.minecraft.world.storage.loot.RandomValueRange;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.util.Random;
+import java.util.UUID;
 
 public class SetAttributes extends LootFunction
 {

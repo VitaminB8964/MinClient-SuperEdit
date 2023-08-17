@@ -1,24 +1,15 @@
 package guichaguri.betterfps.gui;
 
 import guichaguri.betterfps.BetterFpsHelper;
-import guichaguri.betterfps.math.JavaMath;
-import guichaguri.betterfps.math.LibGDXMath;
-import guichaguri.betterfps.math.RivensFullMath;
-import guichaguri.betterfps.math.RivensHalfMath;
-import guichaguri.betterfps.math.RivensMath;
-import guichaguri.betterfps.math.TaylorMath;
-import net.minecraft.util.math.MathHelper;
+import guichaguri.betterfps.math.*;
 
-import java.awt.Dimension;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.GridLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-import javax.swing.*;
 
 /**
  * @author Guilherme Chaguri

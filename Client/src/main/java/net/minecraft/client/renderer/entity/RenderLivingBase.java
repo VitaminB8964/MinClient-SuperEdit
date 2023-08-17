@@ -4,10 +4,6 @@ import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.module.impl.render.impl.Animation;
 import cn.floatingpoint.min.system.module.value.impl.Spinning;
 import com.google.common.collect.Lists;
-
-import java.nio.FloatBuffer;
-import java.util.List;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.model.ModelBase;
@@ -22,14 +18,17 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EnumPlayerModelParts;
 import net.minecraft.scoreboard.Team;
-import net.optifine.Config;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.TextFormatting;
+import net.optifine.Config;
 import net.optifine.EmissiveTextures;
 import net.optifine.entity.model.CustomEntityModels;
 import net.optifine.shaders.Shaders;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.nio.FloatBuffer;
+import java.util.List;
 
 public abstract class RenderLivingBase<T extends EntityLivingBase> extends Render<T> {
     private static final Logger LOGGER = LogManager.getLogger();

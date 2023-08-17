@@ -6,16 +6,17 @@ import com.google.common.collect.Sets;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.ICriterionTrigger;
 import net.minecraft.advancements.PlayerAdvancements;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.potion.PotionType;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class BrewedPotionTrigger implements ICriterionTrigger<BrewedPotionTrigger.Instance>
 {

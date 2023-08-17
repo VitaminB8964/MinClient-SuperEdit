@@ -2,16 +2,15 @@ package guichaguri.betterfps.gui;
 
 import guichaguri.betterfps.BetterFpsHelper;
 import guichaguri.betterfps.gui.data.OptionManager;
-
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.resources.I18n;
 import org.lwjgl.input.Mouse;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author Guilherme Chaguri

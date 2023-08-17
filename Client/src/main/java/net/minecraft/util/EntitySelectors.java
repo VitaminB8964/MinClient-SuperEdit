@@ -2,7 +2,6 @@ package net.minecraft.util;
 
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
@@ -11,6 +10,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.scoreboard.Team;
+
+import javax.annotation.Nullable;
 
 public final class EntitySelectors
 {

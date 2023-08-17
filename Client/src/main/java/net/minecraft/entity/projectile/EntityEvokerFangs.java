@@ -1,7 +1,5 @@
 package net.minecraft.entity.projectile;
 
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.SoundEvents;
@@ -10,6 +8,9 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
+
+import javax.annotation.Nullable;
+import java.util.UUID;
 
 public class EntityEvokerFangs extends Entity
 {

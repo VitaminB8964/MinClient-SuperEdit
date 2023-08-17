@@ -1,21 +1,17 @@
 package net.minecraft.client.renderer.block.model;
 
 import com.google.common.collect.Maps;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import java.lang.reflect.Type;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
+import com.google.gson.*;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.math.MathHelper;
 import org.lwjgl.util.vector.Vector3f;
+
+import javax.annotation.Nullable;
+import java.lang.reflect.Type;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class BlockPart
 {

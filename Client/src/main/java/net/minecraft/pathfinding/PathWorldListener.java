@@ -1,9 +1,6 @@
 package net.minecraft.pathfinding;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import java.util.Objects;
-import javax.annotation.Nullable;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
@@ -14,6 +11,10 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IWorldEventListener;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Objects;
 
 public class PathWorldListener implements IWorldEventListener
 {

@@ -4,10 +4,11 @@ import com.google.common.base.MoreObjects;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Lists;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.IntHashMap;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class GuiPageButtonList extends GuiListExtended
 {

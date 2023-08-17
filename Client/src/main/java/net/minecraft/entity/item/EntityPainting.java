@@ -1,9 +1,6 @@
 package net.minecraft.entity.item;
 
 import com.google.common.collect.Lists;
-import java.util.Iterator;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityHanging;
 import net.minecraft.entity.player.EntityPlayer;
@@ -14,6 +11,10 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
 
 public class EntityPainting extends EntityHanging
 {

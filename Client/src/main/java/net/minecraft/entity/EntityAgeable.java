@@ -1,6 +1,5 @@
 package net.minecraft.entity;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemMonsterPlacer;
@@ -12,6 +11,8 @@ import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public abstract class EntityAgeable extends EntityCreature
 {

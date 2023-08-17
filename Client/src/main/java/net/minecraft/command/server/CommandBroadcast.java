@@ -1,8 +1,5 @@
 package net.minecraft.command.server;
 
-import java.util.Collections;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
@@ -11,6 +8,10 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentTranslation;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 
 public class CommandBroadcast extends CommandBase
 {

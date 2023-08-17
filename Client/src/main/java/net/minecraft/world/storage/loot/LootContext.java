@@ -4,13 +4,14 @@ import com.google.common.collect.Sets;
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonWriter;
-import java.io.IOException;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.DamageSource;
 import net.minecraft.world.WorldServer;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
+import java.util.Set;
 
 public class LootContext
 {

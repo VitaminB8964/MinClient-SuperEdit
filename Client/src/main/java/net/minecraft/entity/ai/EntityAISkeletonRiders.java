@@ -1,7 +1,6 @@
 package net.minecraft.entity.ai;
 
 import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.entity.IEntityLivingData;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.entity.passive.AbstractHorse;

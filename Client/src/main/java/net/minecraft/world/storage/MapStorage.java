@@ -2,18 +2,15 @@ package net.minecraft.world.storage;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.util.List;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagShort;
+
+import javax.annotation.Nullable;
+import java.io.*;
+import java.util.List;
+import java.util.Map;
 
 public class MapStorage
 {

@@ -1,8 +1,9 @@
 package net.minecraft.util.datafix.fixes;
 
-import java.util.Random;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.datafix.IFixableData;
+
+import java.util.Random;
 
 public class ZombieProfToType implements IFixableData
 {

@@ -1,13 +1,6 @@
 package net.minecraft.client.renderer.color;
 
-import javax.annotation.Nullable;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockDoublePlant;
-import net.minecraft.block.BlockOldLeaf;
-import net.minecraft.block.BlockPlanks;
-import net.minecraft.block.BlockRedstoneWire;
-import net.minecraft.block.BlockStem;
-import net.minecraft.block.BlockTallGrass;
+import net.minecraft.block.*;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
@@ -21,6 +14,8 @@ import net.minecraft.world.ColorizerGrass;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.BiomeColorHelper;
+
+import javax.annotation.Nullable;
 
 public class BlockColors
 {

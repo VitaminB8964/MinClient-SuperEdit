@@ -2,7 +2,6 @@ package net.minecraft.client.gui.advancements;
 
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.RenderItem;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 
 enum AdvancementTabType

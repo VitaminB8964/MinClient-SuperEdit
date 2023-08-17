@@ -1,15 +1,8 @@
 package net.minecraft.command.server;
 
-import java.util.Collections;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.command.CommandBase;
-import net.minecraft.command.CommandException;
-import net.minecraft.command.CommandResultStats;
-import net.minecraft.command.ICommandSender;
-import net.minecraft.command.WrongUsageException;
+import net.minecraft.command.*;
 import net.minecraft.init.Blocks;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.nbt.JsonToNBT;
@@ -19,6 +12,10 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
 
 public class CommandSetBlock extends CommandBase
 {

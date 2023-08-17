@@ -1,11 +1,12 @@
 package net.minecraft.network.play.client;
 
-import java.io.IOException;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayServer;
 import net.minecraft.util.EnumHandSide;
+
+import java.io.IOException;
 
 public class CPacketClientSettings implements Packet<INetHandlerPlayServer>
 {

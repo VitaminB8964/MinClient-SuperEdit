@@ -1,9 +1,10 @@
 package net.minecraft.init;
 
 import com.google.common.collect.Sets;
-import java.util.Set;
 import net.minecraft.potion.PotionType;
 import net.minecraft.util.ResourceLocation;
+
+import java.util.Set;
 
 public class PotionTypes
 {

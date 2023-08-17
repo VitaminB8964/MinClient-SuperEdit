@@ -1,8 +1,5 @@
 package net.minecraft.client.gui.recipebook;
 
-import java.util.Iterator;
-import java.util.List;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButtonToggle;
 import net.minecraft.client.renderer.GlStateManager;
@@ -14,6 +11,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.stats.RecipeBook;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.Iterator;
+import java.util.List;
 
 public class GuiButtonRecipeTab extends GuiButtonToggle {
     private final CreativeTabs category;

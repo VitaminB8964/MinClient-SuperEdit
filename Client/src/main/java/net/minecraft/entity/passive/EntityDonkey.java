@@ -1,6 +1,5 @@
 package net.minecraft.entity.passive;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.DamageSource;
@@ -9,6 +8,8 @@ import net.minecraft.util.SoundEvent;
 import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
 
 public class EntityDonkey extends AbstractChestHorse
 {

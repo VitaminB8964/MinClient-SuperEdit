@@ -1,11 +1,6 @@
 package net.minecraft.entity.monster;
 
-import javax.annotation.Nullable;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLiving;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.IEntityLivingData;
-import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.*;
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.entity.ai.EntityAIFindEntityNearest;
 import net.minecraft.entity.ai.EntityAIFindEntityNearestPlayer;
@@ -35,6 +30,8 @@ import net.minecraft.world.WorldType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
 
 public class EntitySlime extends EntityLiving implements IMob
 {

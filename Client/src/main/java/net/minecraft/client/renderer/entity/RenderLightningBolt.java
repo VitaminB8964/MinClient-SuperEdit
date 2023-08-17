@@ -1,13 +1,14 @@
 package net.minecraft.client.renderer.entity;
 
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class RenderLightningBolt extends Render<EntityLightningBolt>
 {

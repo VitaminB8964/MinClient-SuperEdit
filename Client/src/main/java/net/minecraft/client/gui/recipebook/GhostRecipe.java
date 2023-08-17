@@ -1,8 +1,6 @@
 package net.minecraft.client.gui.recipebook;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiScreen;
@@ -13,6 +11,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class GhostRecipe
 {

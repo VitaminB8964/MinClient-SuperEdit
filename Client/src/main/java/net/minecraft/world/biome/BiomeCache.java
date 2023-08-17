@@ -3,8 +3,9 @@ package net.minecraft.world.biome;
 import com.google.common.collect.Lists;
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
-import java.util.List;
 import net.minecraft.server.MinecraftServer;
+
+import java.util.List;
 
 public class BiomeCache
 {

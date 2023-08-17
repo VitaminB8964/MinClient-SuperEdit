@@ -1,10 +1,6 @@
 package net.minecraft.block;
 
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockFaceShape;
@@ -27,6 +23,10 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Random;
 
 public class BlockPistonMoving extends BlockContainer
 {

@@ -1,13 +1,14 @@
 package net.minecraft.client.resources;
 
+import net.minecraft.client.resources.data.IMetadataSection;
+import net.minecraft.client.resources.data.MetadataSerializer;
+import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nullable;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Set;
-import javax.annotation.Nullable;
-import net.minecraft.client.resources.data.IMetadataSection;
-import net.minecraft.client.resources.data.MetadataSerializer;
-import net.minecraft.util.ResourceLocation;
 
 public class LegacyV2Adapter implements IResourcePack
 {

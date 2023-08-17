@@ -1,6 +1,5 @@
 package net.minecraft.client.renderer.tileentity;
 
-import javax.annotation.Nullable;
 import net.minecraft.client.model.ModelBanner;
 import net.minecraft.client.renderer.BannerTextures;
 import net.minecraft.client.renderer.GlStateManager;
@@ -9,6 +8,8 @@ import net.minecraft.tileentity.TileEntityBanner;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
 
 public class TileEntityBannerRenderer extends TileEntitySpecialRenderer<TileEntityBanner>
 {

@@ -1,9 +1,10 @@
 package net.minecraft.stats;
 
-import java.util.BitSet;
-import javax.annotation.Nullable;
 import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
+
+import javax.annotation.Nullable;
+import java.util.BitSet;
 
 public class RecipeBook
 {

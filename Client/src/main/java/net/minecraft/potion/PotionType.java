@@ -2,11 +2,12 @@ package net.minecraft.potion;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.UnmodifiableIterator;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.init.MobEffects;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.RegistryNamespacedDefaultedByKey;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class PotionType
 {

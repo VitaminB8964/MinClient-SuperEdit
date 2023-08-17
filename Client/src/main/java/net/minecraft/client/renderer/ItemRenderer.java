@@ -3,7 +3,6 @@ package net.minecraft.client.renderer;
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.module.impl.render.impl.Animation;
 import com.google.common.base.MoreObjects;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -22,15 +21,11 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.item.*;
 import net.minecraft.potion.Potion;
-import net.optifine.Config;
-import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.util.EnumBlockRenderType;
-import net.minecraft.util.EnumHand;
-import net.minecraft.util.EnumHandSide;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.storage.MapData;
+import net.optifine.Config;
 import net.optifine.DynamicLights;
 import net.optifine.shaders.Shaders;
 

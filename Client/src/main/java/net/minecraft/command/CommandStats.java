@@ -1,10 +1,6 @@
 package net.minecraft.command;
 
 import com.google.common.collect.Lists;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.scoreboard.ScoreObjective;
 import net.minecraft.server.MinecraftServer;
@@ -13,6 +9,11 @@ import net.minecraft.tileentity.TileEntityCommandBlock;
 import net.minecraft.tileentity.TileEntitySign;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class CommandStats extends CommandBase
 {

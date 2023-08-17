@@ -1,8 +1,5 @@
 package net.minecraft.client.renderer.entity;
 
-import java.util.Objects;
-import java.util.Random;
-
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.module.impl.render.impl.ItemPhysics;
 import net.minecraft.client.Minecraft;
@@ -18,6 +15,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.Objects;
+import java.util.Random;
 
 public class RenderEntityItem extends Render<EntityItem> {
     private final RenderItem itemRenderer;

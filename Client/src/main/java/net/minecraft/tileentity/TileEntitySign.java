@@ -1,6 +1,5 @@
 package net.minecraft.tileentity;
 
-import javax.annotation.Nullable;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.CommandResultStats;
 import net.minecraft.command.ICommandSender;
@@ -17,6 +16,8 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentUtils;
 import net.minecraft.util.text.event.ClickEvent;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class TileEntitySign extends TileEntity
 {

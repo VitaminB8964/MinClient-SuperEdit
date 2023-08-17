@@ -1,8 +1,6 @@
 package net.minecraft.entity.projectile;
 
 import com.google.common.collect.Sets;
-import java.util.Collection;
-import java.util.Set;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.Items;
 import net.minecraft.init.PotionTypes;
@@ -16,9 +14,11 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.potion.PotionType;
 import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.EnumParticleTypes;
-import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.world.World;
+
+import java.util.Collection;
+import java.util.Set;
 
 public class EntityTippedArrow extends EntityArrow
 {

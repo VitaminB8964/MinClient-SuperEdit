@@ -1,12 +1,13 @@
 package net.minecraft.client.renderer.chunk;
 
+import net.minecraft.util.EnumFacing;
+import net.minecraft.util.IntegerCache;
+import net.minecraft.util.math.BlockPos;
+
 import java.util.ArrayDeque;
 import java.util.BitSet;
 import java.util.EnumSet;
 import java.util.Set;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.IntegerCache;
-import net.minecraft.util.math.BlockPos;
 
 public class VisGraph
 {

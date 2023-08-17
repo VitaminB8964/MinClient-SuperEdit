@@ -1,17 +1,6 @@
 package net.minecraft.world;
 
-import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
-
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockRailBase;
 import net.minecraft.block.material.Material;
@@ -30,6 +19,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.Chunk;
 import net.optifine.BlockPosM;
+
+import java.util.*;
 
 public final class WorldEntitySpawner {
     private static final int MOB_COUNT_DIV = (int) Math.pow(17.0D, 2.0D);

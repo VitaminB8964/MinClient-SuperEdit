@@ -1,7 +1,8 @@
 package net.minecraft.client.particle;
 
-import javax.annotation.Nullable;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public interface IParticleFactory
 {

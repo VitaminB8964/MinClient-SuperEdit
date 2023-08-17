@@ -1,11 +1,8 @@
 package net.minecraft.block;
 
 import com.google.common.base.Predicate;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.state.BlockFaceShape;
@@ -38,6 +35,9 @@ import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class BlockSkull extends BlockContainer
 {

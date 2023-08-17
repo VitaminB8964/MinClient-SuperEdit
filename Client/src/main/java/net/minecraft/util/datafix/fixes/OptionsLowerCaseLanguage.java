@@ -1,8 +1,9 @@
 package net.minecraft.util.datafix.fixes;
 
-import java.util.Locale;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.datafix.IFixableData;
+
+import java.util.Locale;
 
 public class OptionsLowerCaseLanguage implements IFixableData
 {

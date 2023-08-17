@@ -6,20 +6,12 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityList;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemArmor;
-import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemFireworkCharge;
-import net.minecraft.item.ItemMap;
-import net.minecraft.item.ItemMonsterPlacer;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagIntArray;
 import net.minecraft.potion.PotionUtils;
 import net.minecraft.util.ObjectIntIdentityMap;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.ColorizerGrass;
-import net.minecraft.world.IBlockAccess;
 
 public class ItemColors
 {

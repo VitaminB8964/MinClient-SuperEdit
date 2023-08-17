@@ -1,11 +1,12 @@
 package net.minecraft.network.play.client;
 
-import java.io.IOException;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayServer;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
+
+import java.io.IOException;
 
 public class CPacketPlayerDigging implements Packet<INetHandlerPlayServer>
 {

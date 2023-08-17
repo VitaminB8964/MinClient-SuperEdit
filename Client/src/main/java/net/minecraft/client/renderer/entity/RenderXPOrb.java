@@ -1,15 +1,11 @@
 package net.minecraft.client.renderer.entity;
 
-import net.minecraft.client.renderer.BufferBuilder;
-import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.OpenGlHelper;
-import net.minecraft.client.renderer.RenderHelper;
-import net.minecraft.client.renderer.Tessellator;
+import net.minecraft.client.renderer.*;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.entity.item.EntityXPOrb;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
+import net.optifine.Config;
 import net.optifine.CustomColors;
 
 public class RenderXPOrb extends Render<EntityXPOrb>

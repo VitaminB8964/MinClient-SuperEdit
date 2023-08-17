@@ -1,7 +1,5 @@
 package net.minecraft.client.renderer.entity.layers;
 
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelParrot;
@@ -15,9 +13,12 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.passive.EntityParrot;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.nbt.NBTTagCompound;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
+import net.optifine.Config;
 import net.optifine.shaders.Shaders;
+
+import javax.annotation.Nullable;
+import java.util.UUID;
 
 public class LayerEntityOnShoulder implements LayerRenderer<EntityPlayer>
 {

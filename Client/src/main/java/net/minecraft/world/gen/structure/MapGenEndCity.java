@@ -1,11 +1,12 @@
 package net.minecraft.world.gen.structure;
 
-import java.util.Random;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.ChunkPrimer;
 import net.minecraft.world.gen.ChunkGeneratorEnd;
+
+import java.util.Random;
 
 public class MapGenEndCity extends MapGenStructure
 {

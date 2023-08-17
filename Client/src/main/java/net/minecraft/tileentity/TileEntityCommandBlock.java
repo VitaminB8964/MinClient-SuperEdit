@@ -1,7 +1,6 @@
 package net.minecraft.tileentity;
 
 import io.netty.buffer.ByteBuf;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockCommandBlock;
 import net.minecraft.block.state.IBlockState;
@@ -10,10 +9,11 @@ import net.minecraft.init.Blocks;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class TileEntityCommandBlock extends TileEntity
 {

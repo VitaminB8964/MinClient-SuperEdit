@@ -5,15 +5,16 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import net.minecraft.advancements.ICriterionTrigger;
 import net.minecraft.advancements.PlayerAdvancements;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.WorldServer;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class NetherTravelTrigger implements ICriterionTrigger<NetherTravelTrigger.Instance>
 {

@@ -3,13 +3,14 @@ package net.minecraft.advancements.critereon;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import javax.annotation.Nullable;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.DimensionType;
 import net.minecraft.world.WorldServer;
 import net.minecraft.world.biome.Biome;
+
+import javax.annotation.Nullable;
 
 public class LocationPredicate
 {

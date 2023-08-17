@@ -1,21 +1,14 @@
 package net.minecraft.client.renderer;
 
 import com.google.common.primitives.Floats;
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
-import java.nio.ShortBuffer;
-import java.util.Arrays;
-import java.util.BitSet;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.vertex.VertexFormat;
 import net.minecraft.client.renderer.vertex.VertexFormatElement;
-import net.optifine.Config;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
+import net.optifine.Config;
 import net.optifine.SmartAnimations;
 import net.optifine.render.RenderEnv;
 import net.optifine.shaders.SVertexBuilder;
@@ -25,6 +18,9 @@ import org.apache.logging.log4j.Logger;
 import org.lwjgl.opengl.GL11;
 
 import javax.annotation.Nullable;
+import java.nio.*;
+import java.util.Arrays;
+import java.util.BitSet;
 
 public class BufferBuilder
 {

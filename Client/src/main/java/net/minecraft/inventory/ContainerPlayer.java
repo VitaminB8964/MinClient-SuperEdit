@@ -1,12 +1,13 @@
 package net.minecraft.inventory;
 
-import javax.annotation.Nullable;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nullable;
 
 public class ContainerPlayer extends Container
 {

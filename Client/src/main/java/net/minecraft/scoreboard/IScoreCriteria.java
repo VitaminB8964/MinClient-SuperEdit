@@ -1,8 +1,9 @@
 package net.minecraft.scoreboard;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
 import net.minecraft.util.text.TextFormatting;
+
+import java.util.Map;
 
 public interface IScoreCriteria
 {

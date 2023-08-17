@@ -1,6 +1,5 @@
 package net.minecraft.tileentity;
 
-import java.util.Random;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
@@ -12,6 +11,8 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.IInteractionObject;
+
+import java.util.Random;
 
 public class TileEntityEnchantmentTable extends TileEntity implements ITickable, IInteractionObject
 {

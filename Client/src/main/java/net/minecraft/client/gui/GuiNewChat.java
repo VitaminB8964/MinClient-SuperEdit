@@ -3,11 +3,6 @@ package net.minecraft.client.gui;
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.module.impl.render.impl.ChatBar;
 import com.google.common.collect.Lists;
-
-import java.util.Iterator;
-import java.util.List;
-import javax.annotation.Nullable;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.entity.player.EntityPlayer;
@@ -16,6 +11,10 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
 
 public class GuiNewChat extends Gui {
     private static final Logger LOGGER = LogManager.getLogger();

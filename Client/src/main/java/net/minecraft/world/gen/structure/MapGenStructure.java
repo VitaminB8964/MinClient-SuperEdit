@@ -3,9 +3,6 @@ package net.minecraft.world.gen.structure;
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.objects.ObjectIterator;
-import java.util.Iterator;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.crash.CrashReport;
 import net.minecraft.crash.CrashReportCategory;
 import net.minecraft.crash.ICrashReportDetail;
@@ -17,6 +14,10 @@ import net.minecraft.util.math.ChunkPos;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.ChunkPrimer;
 import net.minecraft.world.gen.MapGenBase;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.Random;
 
 public abstract class MapGenStructure extends MapGenBase
 {

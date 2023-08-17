@@ -2,10 +2,6 @@ package net.minecraft.client.gui;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 import net.minecraft.block.BlockTallGrass;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
@@ -22,6 +18,11 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.FlatGeneratorInfo;
 import net.minecraft.world.gen.FlatLayerInfo;
 import org.lwjgl.input.Keyboard;
+
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class GuiFlatPresets extends GuiScreen
 {

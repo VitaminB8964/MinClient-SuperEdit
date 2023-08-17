@@ -1,13 +1,14 @@
 package net.minecraft.world.gen.structure.template;
 
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.world.gen.structure.StructureBoundingBox;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class PlacementSettings
 {

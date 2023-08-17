@@ -1,7 +1,5 @@
 package net.minecraft.entity.passive;
 
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.block.SoundType;
 import net.minecraft.entity.EntityAgeable;
 import net.minecraft.entity.IEntityLivingData;
@@ -26,6 +24,9 @@ import net.minecraft.util.datafix.walkers.ItemStackData;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
+import java.util.UUID;
 
 public class EntityHorse extends AbstractHorse
 {

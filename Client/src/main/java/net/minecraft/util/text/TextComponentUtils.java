@@ -1,12 +1,13 @@
 package net.minecraft.util.text;
 
-import java.util.List;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.EntityNotFoundException;
 import net.minecraft.command.EntitySelector;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
+
+import java.util.List;
 
 public class TextComponentUtils
 {

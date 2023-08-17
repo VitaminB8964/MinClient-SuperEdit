@@ -1,13 +1,14 @@
 package net.minecraft.command;
 
-import java.util.Objects;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.Objects;
 
 public class CommandSenderWrapper implements ICommandSender
 {

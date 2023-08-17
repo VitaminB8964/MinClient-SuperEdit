@@ -1,7 +1,6 @@
 package net.minecraft.client.renderer.tileentity;
 
 import com.mojang.authlib.GameProfile;
-import java.util.UUID;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockChest;
 import net.minecraft.block.BlockShulkerBox;
@@ -16,12 +15,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTUtil;
-import net.minecraft.tileentity.TileEntityBanner;
-import net.minecraft.tileentity.TileEntityBed;
-import net.minecraft.tileentity.TileEntityChest;
-import net.minecraft.tileentity.TileEntityEnderChest;
-import net.minecraft.tileentity.TileEntityShulkerBox;
-import net.minecraft.tileentity.TileEntitySkull;
+import net.minecraft.tileentity.*;
 import net.minecraft.util.EnumFacing;
 import org.apache.commons.lang3.StringUtils;
 

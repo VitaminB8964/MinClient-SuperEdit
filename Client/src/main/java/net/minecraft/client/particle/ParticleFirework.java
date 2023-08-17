@@ -1,6 +1,5 @@
 package net.minecraft.client.particle;
 
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.entity.Entity;
@@ -12,6 +11,8 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class ParticleFirework
 {

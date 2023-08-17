@@ -4,12 +4,13 @@ import com.google.common.base.MoreObjects;
 import com.google.common.base.Predicate;
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.LoadingCache;
-import javax.annotation.Nullable;
 import net.minecraft.block.state.BlockWorldState;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3i;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class BlockPattern
 {

@@ -1,9 +1,5 @@
 package net.minecraft.entity.player;
 
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.util.RecipeItemHelper;
 import net.minecraft.crash.CrashReport;
@@ -24,6 +20,11 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 public class InventoryPlayer implements IInventory
 {

@@ -1,20 +1,11 @@
 package net.minecraft.advancements;
 
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import com.google.gson.JsonSyntaxException;
-import java.lang.reflect.Type;
-import java.util.Arrays;
+import com.google.gson.*;
 import net.minecraft.command.CommandResultStats;
 import net.minecraft.command.FunctionObject;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityItem;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
@@ -29,6 +20,9 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootContext;
+
+import java.lang.reflect.Type;
+import java.util.Arrays;
 
 public class AdvancementRewards
 {

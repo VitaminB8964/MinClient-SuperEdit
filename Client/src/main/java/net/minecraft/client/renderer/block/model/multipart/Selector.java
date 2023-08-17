@@ -4,19 +4,16 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Function;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Iterables;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParseException;
-import java.lang.reflect.Type;
-import java.util.Set;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
+import com.google.gson.*;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.VariantList;
 import net.minecraft.util.JsonUtils;
+
+import javax.annotation.Nullable;
+import java.lang.reflect.Type;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public class Selector
 {

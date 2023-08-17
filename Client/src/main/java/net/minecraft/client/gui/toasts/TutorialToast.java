@@ -1,10 +1,11 @@
 package net.minecraft.client.gui.toasts;
 
-import javax.annotation.Nullable;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.ITextComponent;
+
+import javax.annotation.Nullable;
 
 public class TutorialToast implements IToast
 {

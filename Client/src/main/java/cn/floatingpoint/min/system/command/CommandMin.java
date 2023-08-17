@@ -1,8 +1,8 @@
 package cn.floatingpoint.min.system.command;
 
 import cn.floatingpoint.min.management.Managers;
-import cn.floatingpoint.min.system.ui.hyt.party.VexViewButton;
 import cn.floatingpoint.min.system.ui.hyt.party.GuiHandleInvitation;
+import cn.floatingpoint.min.system.ui.hyt.party.VexViewButton;
 import cn.floatingpoint.min.utils.client.ChatUtil;
 import cn.floatingpoint.min.utils.client.CheatDetection;
 import net.minecraft.client.Minecraft;

@@ -3,7 +3,6 @@ package net.minecraft.entity.item;
 import net.minecraft.block.BlockRailBase;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;

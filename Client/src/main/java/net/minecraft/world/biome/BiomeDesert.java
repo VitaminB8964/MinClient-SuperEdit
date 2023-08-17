@@ -1,7 +1,5 @@
 package net.minecraft.world.biome;
 
-import java.util.Iterator;
-import java.util.Random;
 import net.minecraft.entity.monster.EntityHusk;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.monster.EntityZombieVillager;
@@ -11,6 +9,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenDesertWells;
 import net.minecraft.world.gen.feature.WorldGenFossils;
+
+import java.util.Iterator;
+import java.util.Random;
 
 public class BiomeDesert extends Biome
 {

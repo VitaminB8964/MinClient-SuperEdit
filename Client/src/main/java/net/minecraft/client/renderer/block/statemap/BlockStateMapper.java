@@ -3,13 +3,14 @@ package net.minecraft.client.renderer.block.statemap;
 import com.google.common.base.MoreObjects;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
-import java.util.Collections;
-import java.util.Map;
-import java.util.Set;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.util.ResourceLocation;
+
+import java.util.Collections;
+import java.util.Map;
+import java.util.Set;
 
 public class BlockStateMapper
 {

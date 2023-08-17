@@ -1,8 +1,5 @@
 package cn.floatingpoint.min.management.impl;
 
-import java.io.*;
-import java.util.*;
-
 import cn.floatingpoint.min.management.Manager;
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.module.Module;
@@ -13,6 +10,10 @@ import cn.floatingpoint.min.utils.math.Vec2i;
 import net.minecraft.client.Minecraft;
 import org.json.JSONObject;
 import org.lwjgl.input.Keyboard;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Map;
 
 @SuppressWarnings("all")
 public class FileManager implements Manager {

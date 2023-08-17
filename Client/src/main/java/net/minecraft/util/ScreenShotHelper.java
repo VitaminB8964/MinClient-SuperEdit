@@ -1,28 +1,28 @@
 package net.minecraft.util;
 
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.nio.IntBuffer;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import javax.annotation.Nullable;
-import javax.imageio.ImageIO;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.texture.TextureUtil;
 import net.minecraft.client.shader.Framebuffer;
-import net.optifine.Config;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.event.ClickEvent;
+import net.optifine.Config;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.BufferUtils;
+
+import javax.annotation.Nullable;
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.nio.IntBuffer;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class ScreenShotHelper {
     private static final Logger LOGGER = LogManager.getLogger();

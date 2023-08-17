@@ -1,8 +1,9 @@
 package net.minecraft.entity.ai;
 
-import java.util.List;
 import net.minecraft.entity.passive.EntityLlama;
 import net.minecraft.util.math.Vec3d;
+
+import java.util.List;
 
 public class EntityAILlamaFollowCaravan extends EntityAIBase
 {

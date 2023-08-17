@@ -1,11 +1,12 @@
 package net.minecraft.network.play.server;
 
-import java.io.IOException;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayClient;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
 
 public class SPacketEntityAttach implements Packet<INetHandlerPlayClient>
 {

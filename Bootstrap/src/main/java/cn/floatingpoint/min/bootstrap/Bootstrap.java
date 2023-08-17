@@ -1,22 +1,17 @@
 package cn.floatingpoint.min.bootstrap;
 
 import cn.floatingpoint.min.bootstrap.exceptions.InitiateException;
-import cn.floatingpoint.min.util.WebUtil;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import joptsimple.OptionSpec;
-import org.json.JSONObject;
 
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 
 /**
  * @projectName: MIN
@@ -29,8 +24,6 @@ public class Bootstrap extends JFrame {
     private static Bootstrap instance;
     private File dir;
     private boolean canLaunch = false;
-    private int length = 0;
-    private String sha1;
 
     public Bootstrap(String[] args) {
         instance = this;
@@ -61,14 +54,14 @@ public class Bootstrap extends JFrame {
         optionparser.accepts("userType").withRequiredArg().defaultsTo("legacy");
         OptionSet optionset = optionparser.parse(args);
         File file = optionset.valueOf(fileOptionSpec);
-        this.dir = (new File(file, "GameCore/MIN")).getAbsoluteFile();
+        this.dir = (new File(file, "GameCore/MIN-Edit")).getAbsoluteFile();
         if (!this.dir.exists()) {
             while (!this.dir.mkdirs()) {
-                this.dir = (new File(file, "GameCore/MIN")).getAbsoluteFile();
+                this.dir = (new File(file, "GameCore/MIN-Edit")).getAbsoluteFile();
             }
         }
 
-        this.setTitle("MIN Client Bootstrap");
+        this.setTitle("MIN Client Bootstrap(十月你妈妈没了)");
         this.setSize(360, 100);
         this.setResizable(false);
         this.setLocationRelativeTo(null);
@@ -79,7 +72,7 @@ public class Bootstrap extends JFrame {
         progressBar.setStringPainted(true);
         this.add(label);
         this.add(progressBar);
-        JLabel introduction = new JLabel("Developed by FloatingPoint-MC.");
+        JLabel introduction = new JLabel("Developed by Potatochipscn.");
         introduction.setHorizontalAlignment(SwingConstants.CENTER);
         introduction.setVerticalAlignment(SwingConstants.BOTTOM);
         this.getContentPane().add(introduction);
@@ -99,21 +92,11 @@ public class Bootstrap extends JFrame {
         new Thread(() -> {
             try {
                 label.setText("Checking status: ");
-                String url = WebUtil.getPlatform() + "data.json";
                 progressBar.setValue(33);
-                JSONObject jsonObject = WebUtil.getJSON(url);
                 progressBar.setValue(66);
-                String remoteVersion = jsonObject.getString("CurrentVersion");
                 progressBar.setValue(99);
-                sha1 = jsonObject.getString("Sha-1");
-                if (!remoteVersion.equalsIgnoreCase(getVersion()) || checkSha1NonRight(sha1)) {
-                    progressBar.setValue(100);
-                    deleteJarFile();
-                    downloadJarFile(remoteVersion);
-                } else {
-                    progressBar.setValue(100);
-                    canLaunch = true;
-                }
+                progressBar.setValue(100);
+                canLaunch = true;
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(this, "Error while grabbing data.", "Error", JOptionPane.ERROR_MESSAGE);
                 System.exit(0);
@@ -121,43 +104,7 @@ public class Bootstrap extends JFrame {
         }).start();
     }
 
-    private void downloadJarFile(String version) {
-        label.setText("Fetching game: ");
-        progressBar.setValue(0);
-        try {
-            HttpURLConnection connection = (HttpURLConnection) new URL(WebUtil.getDownloadUrl() + version + "/Client-" + version + ".jar").openConnection();
-            progressBar.setValue(33);
-            try (InputStream inputStream = connection.getInputStream()) {
-                progressBar.setValue(67);
-                File jarFile = new File(this.dir, "Game.jar");
-                try (FileOutputStream out = new FileOutputStream(jarFile)) {
-                    progressBar.setValue(100);
-                    int length = connection.getContentLength();
-                    label.setText("Downloading Client: ");
-                    progressBar.setValue(0);
-                    byte[] bytes = new byte[1024 * 512];
-                    int len;
-                    while ((len = inputStream.read(bytes)) != -1) {
-                        this.length += len;
-                        progressBar.setValue((int) Math.round(100.0D * this.length / length));
-                        out.write(bytes, 0, len);
-                    }
-                    label.setText("Verifying Client: ");
-                    progressBar.setValue(0);
-                    if (checkSha1NonRight(sha1)) {
-                        JOptionPane.showMessageDialog(this, "Invalid file downloaded. Please contact the author.", "Error", JOptionPane.ERROR_MESSAGE);
-                        System.exit(0);
-                    } else {
-                        canLaunch = true;
-                        progressBar.setValue(100);
-                    }
-                }
-            }
-        } catch (IOException e) {
-            JOptionPane.showMessageDialog(this, "Error while grabbing game file.", "Error", JOptionPane.ERROR_MESSAGE);
-            System.exit(0);
-        }
-    }
+
 
     @SuppressWarnings("all")
     private void prepareGame(String[] args) {
@@ -187,48 +134,5 @@ public class Bootstrap extends JFrame {
             System.exit(0);
         }
         System.exit(0);
-    }
-
-    private String getVersion() {
-        File jar = new File(this.dir, "Game.jar");
-        try (URLClassLoader urlClassLoader = new URLClassLoader(new URL[]{jar.toURI().toURL()})) {
-            Class<?> versionClass = urlClassLoader.loadClass("VersionInfo");
-            return (String) versionClass.getMethod("getVersion").invoke(versionClass);
-        } catch (Exception e) {
-            return "Unknown";
-        }
-    }
-
-    private String getSha1ByFile(File file) {
-        try (FileInputStream fileInputStream = new FileInputStream(file)) {
-            MessageDigest messageDigest = MessageDigest.getInstance("SHA1");
-            byte[] bytes = new byte[1024];
-            int var4;
-            while ((var4 = fileInputStream.read(bytes)) != -1) {
-                messageDigest.update(bytes, 0, var4);
-            }
-            bytes = messageDigest.digest();
-            StringBuilder stringBuilder = new StringBuilder();
-            for (byte b : bytes) {
-                stringBuilder.append(Integer.toString((b & 255) + 256, 16).substring(1));
-            }
-            return stringBuilder.toString();
-        } catch (IOException | NoSuchAlgorithmException e) {
-            return "Unknown";
-        }
-    }
-
-    private boolean checkSha1NonRight(String sha1) {
-        return !this.getSha1ByFile(new File(this.dir, "Game.jar")).equals(sha1);
-    }
-
-    private void deleteJarFile() {
-        if ((new File(this.dir, "Game.jar")).getAbsoluteFile().exists()) {
-            do {
-                label.setText("Removing old client...");
-                progressBar.setValue(0);
-            } while (!(new File(this.dir, "Game.jar")).getAbsoluteFile().delete());
-            progressBar.setValue(100);
-        }
     }
 }

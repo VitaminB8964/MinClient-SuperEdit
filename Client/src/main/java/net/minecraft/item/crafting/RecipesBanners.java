@@ -1,6 +1,5 @@
 package net.minecraft.item.crafting;
 
-import javax.annotation.Nullable;
 import net.minecraft.init.Items;
 import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.item.EnumDyeColor;
@@ -12,6 +11,8 @@ import net.minecraft.tileentity.BannerPattern;
 import net.minecraft.tileentity.TileEntityBanner;
 import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class RecipesBanners
 {

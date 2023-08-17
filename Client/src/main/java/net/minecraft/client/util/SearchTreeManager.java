@@ -1,11 +1,12 @@
 package net.minecraft.client.util;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
 import net.minecraft.client.gui.recipebook.RecipeList;
 import net.minecraft.client.resources.IResourceManager;
 import net.minecraft.client.resources.IResourceManagerReloadListener;
 import net.minecraft.item.ItemStack;
+
+import java.util.Map;
 
 public class SearchTreeManager implements IResourceManagerReloadListener
 {

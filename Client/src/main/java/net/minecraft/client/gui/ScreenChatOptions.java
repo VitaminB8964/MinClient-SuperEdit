@@ -1,10 +1,10 @@
 package net.minecraft.client.gui;
 
-import java.io.IOException;
-import java.util.Objects;
-
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.settings.GameSettings;
+
+import java.io.IOException;
+import java.util.Objects;
 
 public class ScreenChatOptions extends GuiScreen
 {

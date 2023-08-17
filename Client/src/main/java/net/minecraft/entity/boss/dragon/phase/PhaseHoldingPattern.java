@@ -1,16 +1,16 @@
 package net.minecraft.entity.boss.dragon.phase;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.entity.item.EntityEnderCrystal;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.pathfinding.Path;
-import net.minecraft.pathfinding.PathPoint;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.gen.feature.WorldGenEndPodium;
+
+import javax.annotation.Nullable;
 
 public class PhaseHoldingPattern extends PhaseBase
 {

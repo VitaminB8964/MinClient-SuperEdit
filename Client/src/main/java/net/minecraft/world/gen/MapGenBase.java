@@ -1,8 +1,9 @@
 package net.minecraft.world.gen;
 
-import java.util.Random;
 import net.minecraft.world.World;
 import net.minecraft.world.chunk.ChunkPrimer;
+
+import java.util.Random;
 
 public class MapGenBase
 {

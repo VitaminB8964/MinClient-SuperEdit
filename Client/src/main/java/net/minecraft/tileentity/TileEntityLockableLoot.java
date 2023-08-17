@@ -1,7 +1,5 @@
 package net.minecraft.tileentity;
 
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.item.ItemStack;
@@ -12,6 +10,9 @@ import net.minecraft.world.WorldServer;
 import net.minecraft.world.storage.loot.ILootContainer;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.LootTable;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public abstract class TileEntityLockableLoot extends TileEntityLockable implements ILootContainer
 {

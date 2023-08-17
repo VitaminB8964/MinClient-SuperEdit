@@ -1,13 +1,13 @@
 package net.minecraft.world.end;
 
-import java.util.List;
-import java.util.Random;
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityEnderCrystal;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.WorldServer;
 import net.minecraft.world.biome.BiomeEndDecorator;
 import net.minecraft.world.gen.feature.WorldGenSpikes;
+
+import java.util.List;
+import java.util.Random;
 
 public enum DragonSpawnManager
 {

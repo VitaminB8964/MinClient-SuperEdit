@@ -1,8 +1,9 @@
 package net.minecraft.entity.ai;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nullable;
 
 public class EntityAIWanderAvoidWater extends EntityAIWander
 {

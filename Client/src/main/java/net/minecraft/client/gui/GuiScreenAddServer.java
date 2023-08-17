@@ -1,13 +1,14 @@
 package net.minecraft.client.gui;
 
 import com.google.common.base.Predicate;
-import java.io.IOException;
-import java.net.IDN;
-import javax.annotation.Nullable;
 import net.minecraft.client.multiplayer.ServerData;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.StringUtils;
 import org.lwjgl.input.Keyboard;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
+import java.net.IDN;
 
 public class GuiScreenAddServer extends GuiScreen
 {

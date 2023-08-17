@@ -1,8 +1,6 @@
 package net.minecraft.tileentity;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.ItemBanner;
 import net.minecraft.item.ItemStack;
@@ -13,6 +11,9 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.IWorldNameable;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class TileEntityBanner extends TileEntity implements IWorldNameable
 {

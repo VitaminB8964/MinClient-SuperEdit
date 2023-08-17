@@ -4,11 +4,6 @@ import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.UnmodifiableIterator;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
-
-import java.util.Optional;
-import java.util.UUID;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.BlockStateContainer;
@@ -19,6 +14,11 @@ import net.minecraft.util.StringUtils;
 import net.minecraft.util.math.BlockPos;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.util.Map.Entry;
+import java.util.Optional;
+import java.util.UUID;
 
 public final class NBTUtil
 {

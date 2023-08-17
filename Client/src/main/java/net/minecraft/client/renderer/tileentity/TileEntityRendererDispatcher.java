@@ -1,8 +1,6 @@
 package net.minecraft.client.renderer.tileentity;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.model.ModelShulker;
@@ -13,27 +11,16 @@ import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.crash.CrashReport;
 import net.minecraft.crash.CrashReportCategory;
 import net.minecraft.entity.Entity;
-import net.minecraft.tileentity.TileEntity;
-import net.minecraft.tileentity.TileEntityBanner;
-import net.minecraft.tileentity.TileEntityBeacon;
-import net.minecraft.tileentity.TileEntityBed;
-import net.minecraft.tileentity.TileEntityChest;
-import net.minecraft.tileentity.TileEntityEnchantmentTable;
-import net.minecraft.tileentity.TileEntityEndGateway;
-import net.minecraft.tileentity.TileEntityEndPortal;
-import net.minecraft.tileentity.TileEntityEnderChest;
-import net.minecraft.tileentity.TileEntityMobSpawner;
-import net.minecraft.tileentity.TileEntityPiston;
-import net.minecraft.tileentity.TileEntityShulkerBox;
-import net.minecraft.tileentity.TileEntitySign;
-import net.minecraft.tileentity.TileEntitySkull;
-import net.minecraft.tileentity.TileEntityStructure;
+import net.minecraft.tileentity.*;
 import net.minecraft.util.ReportedException;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.optifine.EmissiveTextures;
+
+import javax.annotation.Nullable;
+import java.util.Map;
 
 public class TileEntityRendererDispatcher
 {

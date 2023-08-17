@@ -7,14 +7,15 @@ import com.google.common.collect.ContiguousSet;
 import com.google.common.collect.DiscreteDomain;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Range;
-import java.util.Collections;
-import java.util.List;
-import java.util.Random;
-import java.util.concurrent.TimeUnit;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenSpikes;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 public class BiomeEndDecorator extends BiomeDecorator
 {

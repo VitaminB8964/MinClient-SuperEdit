@@ -1,7 +1,8 @@
 package net.minecraft.world;
 
-import javax.annotation.concurrent.Immutable;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.concurrent.Immutable;
 
 @Immutable
 public class DifficultyInstance

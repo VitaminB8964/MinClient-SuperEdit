@@ -1,7 +1,8 @@
 package net.minecraft.world.biome;
 
-import java.util.Random;
 import net.minecraft.world.gen.feature.WorldGenAbstractTree;
+
+import java.util.Random;
 
 public class BiomeForestMutated extends BiomeForest
 {

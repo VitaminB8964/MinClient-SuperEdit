@@ -1,8 +1,6 @@
 package net.minecraft.world.gen;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EnumCreatureType;
@@ -13,6 +11,9 @@ import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.chunk.ChunkPrimer;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ChunkGeneratorDebug implements IChunkGenerator
 {

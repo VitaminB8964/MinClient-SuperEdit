@@ -1,6 +1,5 @@
 package net.minecraft.entity.item;
 
-import javax.annotation.Nullable;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -16,6 +15,8 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class EntityEnderPearl extends EntityThrowable
 {

@@ -4,9 +4,10 @@ import com.google.common.base.Function;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Iterables;
-import javax.annotation.Nullable;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
+
+import javax.annotation.Nullable;
 
 public class ConditionOr implements ICondition
 {

@@ -1,7 +1,6 @@
 package net.minecraft.item;
 
 import com.google.common.collect.Multimap;
-import java.util.Set;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
@@ -11,6 +10,8 @@ import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.Set;
 
 public class ItemTool extends Item
 {

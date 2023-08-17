@@ -1,13 +1,14 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
-import java.util.UUID;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.network.play.server.SPacketUpdateBossInfo;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.BossInfo;
+
+import java.util.Map;
+import java.util.UUID;
 
 public class GuiBossOverlay extends Gui
 {

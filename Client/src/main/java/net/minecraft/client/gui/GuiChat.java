@@ -1,10 +1,5 @@
 package net.minecraft.client.gui;
 
-import java.io.IOException;
-import java.util.Map;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.ui.components.DraggableGameView;
 import cn.floatingpoint.min.utils.math.Vec2i;
@@ -18,6 +13,11 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import java.io.IOException;
+import java.util.Map;
 
 public class GuiChat extends GuiScreen implements ITabCompleter {
     private String historyBuffer = "";

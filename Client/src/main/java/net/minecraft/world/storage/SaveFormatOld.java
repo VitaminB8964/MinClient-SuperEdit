@@ -1,11 +1,6 @@
 package net.minecraft.world.storage;
 
 import com.google.common.collect.Lists;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.client.AnvilConverterException;
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTTagCompound;
@@ -14,6 +9,12 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.datafix.FixTypes;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.util.List;
 
 public class SaveFormatOld implements ISaveFormat
 {

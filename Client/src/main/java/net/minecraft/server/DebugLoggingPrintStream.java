@@ -1,7 +1,8 @@
 package net.minecraft.server;
 
-import java.io.OutputStream;
 import net.minecraft.util.LoggingPrintStream;
+
+import java.io.OutputStream;
 
 public class DebugLoggingPrintStream extends LoggingPrintStream
 {

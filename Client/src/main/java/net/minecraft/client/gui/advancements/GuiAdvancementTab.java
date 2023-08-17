@@ -1,8 +1,6 @@
 package net.minecraft.client.gui.advancements;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.DisplayInfo;
 import net.minecraft.client.Minecraft;
@@ -13,6 +11,9 @@ import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
+import java.util.Map;
 
 public class GuiAdvancementTab extends Gui
 {

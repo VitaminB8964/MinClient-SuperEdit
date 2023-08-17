@@ -1,15 +1,16 @@
 package net.minecraft.pathfinding;
 
 import com.google.common.collect.Sets;
-import java.util.EnumSet;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nullable;
+import java.util.EnumSet;
+import java.util.Set;
 
 public class FlyingNodeProcessor extends WalkNodeProcessor
 {

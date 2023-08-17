@@ -2,9 +2,10 @@ package net.minecraft.advancements.critereon;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import javax.annotation.Nullable;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
 
 public class DistancePredicate
 {

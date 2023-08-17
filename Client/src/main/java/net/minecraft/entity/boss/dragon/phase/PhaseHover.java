@@ -1,8 +1,9 @@
 package net.minecraft.entity.boss.dragon.phase;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nullable;
 
 public class PhaseHover extends PhaseBase
 {

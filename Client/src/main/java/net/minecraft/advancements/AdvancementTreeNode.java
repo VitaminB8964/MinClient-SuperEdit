@@ -1,8 +1,9 @@
 package net.minecraft.advancements;
 
 import com.google.common.collect.Lists;
-import java.util.List;
+
 import javax.annotation.Nullable;
+import java.util.List;
 
 public class AdvancementTreeNode
 {

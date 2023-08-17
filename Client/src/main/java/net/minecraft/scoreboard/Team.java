@@ -1,10 +1,11 @@
 package net.minecraft.scoreboard;
 
 import com.google.common.collect.Maps;
+import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nullable;
 import java.util.Collection;
 import java.util.Map;
-import javax.annotation.Nullable;
-import net.minecraft.util.text.TextFormatting;
 
 public abstract class Team
 {

@@ -1,8 +1,5 @@
 package net.minecraft.world.gen.structure;
 
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockDispenser;
 import net.minecraft.block.BlockDoor;
 import net.minecraft.block.material.Material;
@@ -20,6 +17,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.EnumSkyBlock;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.structure.template.TemplateManager;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Random;
 
 public abstract class StructureComponent
 {

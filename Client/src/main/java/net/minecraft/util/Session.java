@@ -3,10 +3,11 @@ package net.minecraft.util;
 import com.google.common.collect.Maps;
 import com.mojang.authlib.GameProfile;
 import com.mojang.util.UUIDTypeAdapter;
+
+import javax.annotation.Nullable;
 import java.util.Locale;
 import java.util.Map;
 import java.util.UUID;
-import javax.annotation.Nullable;
 
 public class Session
 {

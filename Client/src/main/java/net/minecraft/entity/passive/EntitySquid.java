@@ -1,6 +1,5 @@
 package net.minecraft.entity.passive;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.MoverType;
 import net.minecraft.entity.SharedMonsterAttributes;
@@ -14,6 +13,8 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
 
 public class EntitySquid extends EntityWaterMob
 {

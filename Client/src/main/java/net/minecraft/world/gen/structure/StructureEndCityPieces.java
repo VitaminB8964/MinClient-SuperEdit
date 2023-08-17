@@ -1,15 +1,12 @@
 package net.minecraft.world.gen.structure;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import java.util.Random;
 import net.minecraft.entity.item.EntityItemFrame;
 import net.minecraft.entity.monster.EntityShulker;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.server.MinecraftServer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityChest;
 import net.minecraft.util.EnumFacing;
@@ -22,6 +19,9 @@ import net.minecraft.world.gen.structure.template.PlacementSettings;
 import net.minecraft.world.gen.structure.template.Template;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import java.util.List;
+import java.util.Random;
 
 public class StructureEndCityPieces
 {

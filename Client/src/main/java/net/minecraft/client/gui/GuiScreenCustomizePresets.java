@@ -1,8 +1,6 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Lists;
-import java.io.IOException;
-import java.util.List;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
@@ -11,6 +9,9 @@ import net.minecraft.client.resources.I18n;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.gen.ChunkGeneratorSettings;
 import org.lwjgl.input.Keyboard;
+
+import java.io.IOException;
+import java.util.List;
 
 public class GuiScreenCustomizePresets extends GuiScreen
 {

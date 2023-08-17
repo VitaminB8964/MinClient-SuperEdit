@@ -1,7 +1,5 @@
 package net.minecraft.client.gui.inventory;
 
-import java.io.IOException;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiButtonImage;
@@ -18,6 +16,8 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.ClickType;
 import net.minecraft.inventory.ContainerPlayer;
 import net.minecraft.inventory.Slot;
+
+import java.io.IOException;
 
 public class GuiInventory extends InventoryEffectRenderer implements IRecipeShownListener {
     /**

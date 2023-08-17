@@ -1,7 +1,5 @@
 package net.minecraft.item;
 
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.block.BlockStandingSign;
 import net.minecraft.block.BlockWallSign;
@@ -25,6 +23,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ItemBanner extends ItemBlock
 {

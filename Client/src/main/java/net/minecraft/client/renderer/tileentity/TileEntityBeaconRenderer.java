@@ -1,18 +1,18 @@
 package net.minecraft.client.renderer.tileentity;
 
-import java.util.List;
-
 import guichaguri.betterfps.BetterFpsHelper;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
-import net.optifine.Config;
 import net.minecraft.tileentity.TileEntityBeacon;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
+import net.optifine.Config;
 import net.optifine.shaders.Shaders;
 import org.lwjgl.opengl.GL11;
+
+import java.util.List;
 
 public class TileEntityBeaconRenderer extends TileEntitySpecialRenderer<TileEntityBeacon> {
     public static final ResourceLocation TEXTURE_BEACON_BEAM = new ResourceLocation("textures/entity/beacon_beam.png");

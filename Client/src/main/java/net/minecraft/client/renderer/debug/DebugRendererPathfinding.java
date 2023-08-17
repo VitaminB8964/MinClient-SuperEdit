@@ -1,7 +1,6 @@
 package net.minecraft.client.renderer.debug;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
@@ -13,6 +12,8 @@ import net.minecraft.pathfinding.Path;
 import net.minecraft.pathfinding.PathPoint;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.Map;
 
 public class DebugRendererPathfinding implements DebugRenderer.IDebugRenderer
 {

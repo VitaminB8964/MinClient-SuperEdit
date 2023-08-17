@@ -5,12 +5,6 @@ import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufInputStream;
 import io.netty.buffer.Unpooled;
 import io.netty.handler.codec.base64.Base64;
-import java.awt.image.BufferedImage;
-import java.net.UnknownHostException;
-import java.nio.charset.StandardCharsets;
-import java.util.List;
-import java.util.concurrent.ScheduledThreadPoolExecutor;
-import java.util.concurrent.ThreadPoolExecutor;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ServerData;
 import net.minecraft.client.renderer.GlStateManager;
@@ -22,6 +16,13 @@ import net.minecraft.util.text.TextFormatting;
 import org.apache.commons.lang3.Validate;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.awt.image.BufferedImage;
+import java.net.UnknownHostException;
+import java.nio.charset.StandardCharsets;
+import java.util.List;
+import java.util.concurrent.ScheduledThreadPoolExecutor;
+import java.util.concurrent.ThreadPoolExecutor;
 
 public class ServerListEntryNormal implements GuiListExtended.IGuiListEntry
 {

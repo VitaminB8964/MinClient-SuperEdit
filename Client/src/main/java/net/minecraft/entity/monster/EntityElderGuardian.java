@@ -1,8 +1,6 @@
 package net.minecraft.entity.monster;
 
 import com.google.common.base.Predicate;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -18,6 +16,9 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class EntityElderGuardian extends EntityGuardian
 {

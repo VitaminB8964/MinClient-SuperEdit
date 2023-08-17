@@ -1,12 +1,13 @@
 package net.minecraft.util;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.translation.I18n;
+
+import javax.annotation.Nullable;
 
 public class EntityDamageSourceIndirect extends EntityDamageSource
 {

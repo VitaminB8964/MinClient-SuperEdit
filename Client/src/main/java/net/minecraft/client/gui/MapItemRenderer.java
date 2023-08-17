@@ -1,8 +1,6 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
@@ -13,6 +11,9 @@ import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.MapData;
 import net.minecraft.world.storage.MapDecoration;
+
+import javax.annotation.Nullable;
+import java.util.Map;
 
 public class MapItemRenderer
 {

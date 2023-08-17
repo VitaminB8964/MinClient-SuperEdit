@@ -3,9 +3,10 @@ package net.minecraft.util.text;
 import com.google.common.base.Function;
 import com.google.common.collect.Iterators;
 import com.google.common.collect.Lists;
+
+import javax.annotation.Nullable;
 import java.util.Iterator;
 import java.util.List;
-import javax.annotation.Nullable;
 
 public abstract class TextComponentBase implements ITextComponent
 {

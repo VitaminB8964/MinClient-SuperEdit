@@ -1,5 +1,13 @@
 package net.minecraft.command;
 
+import net.minecraft.profiler.Profiler;
+import net.minecraft.server.MinecraftServer;
+import net.minecraft.util.math.BlockPos;
+import org.apache.commons.io.IOUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
@@ -9,13 +17,6 @@ import java.text.SimpleDateFormat;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
-import javax.annotation.Nullable;
-import net.minecraft.profiler.Profiler;
-import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.math.BlockPos;
-import org.apache.commons.io.IOUtils;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class CommandDebug extends CommandBase
 {

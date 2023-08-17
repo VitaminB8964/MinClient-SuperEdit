@@ -6,11 +6,11 @@ import com.google.common.collect.Collections2;
 import com.google.common.collect.ImmutableSet;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
+import net.minecraft.util.IStringSerializable;
+
 import java.util.Collection;
 import java.util.Map;
 import java.util.Optional;
-
-import net.minecraft.util.IStringSerializable;
 
 public class PropertyEnum<T extends Enum<T> & IStringSerializable> extends PropertyHelper<T>
 {

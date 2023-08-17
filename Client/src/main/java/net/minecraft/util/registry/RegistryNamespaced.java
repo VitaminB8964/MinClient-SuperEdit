@@ -2,11 +2,12 @@ package net.minecraft.util.registry;
 
 import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
-import java.util.Iterator;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.util.IObjectIntIterable;
 import net.minecraft.util.IntIdentityHashBiMap;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.Map;
 
 public class RegistryNamespaced<K, V> extends RegistrySimple<K, V> implements IObjectIntIterable<V>
 {

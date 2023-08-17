@@ -1,11 +1,12 @@
 package net.minecraft.client.gui;
 
-import java.io.IOException;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.GameType;
+
+import java.io.IOException;
 
 public class GuiShareToLan extends GuiScreen
 {

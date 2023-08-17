@@ -17,7 +17,7 @@ public abstract class Module {
     private boolean canBeEnabled;
     private boolean enableOnStartUp;
     private final LinkedHashMap<String, Value<?>> values;
-    protected final Minecraft mc = Minecraft.getMinecraft();
+    protected static final Minecraft mc = Minecraft.getMinecraft();
 
     public Module(Category category) {
         this.category = category;

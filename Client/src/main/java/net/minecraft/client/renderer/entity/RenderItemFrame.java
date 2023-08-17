@@ -1,6 +1,5 @@
 package net.minecraft.client.renderer.entity;
 
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BlockRendererDispatcher;
 import net.minecraft.client.renderer.GlStateManager;
@@ -16,11 +15,13 @@ import net.minecraft.entity.item.EntityItemFrame;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemMap;
 import net.minecraft.item.ItemStack;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.storage.MapData;
+import net.optifine.Config;
 import net.optifine.shaders.Shaders;
+
+import javax.annotation.Nullable;
 
 public class RenderItemFrame extends Render<EntityItemFrame>
 {

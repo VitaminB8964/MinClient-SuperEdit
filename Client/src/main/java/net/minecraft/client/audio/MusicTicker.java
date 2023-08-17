@@ -1,11 +1,12 @@
 package net.minecraft.client.audio;
 
-import java.util.Random;
 import net.minecraft.client.Minecraft;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.ITickable;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.Random;
 
 public class MusicTicker implements ITickable
 {

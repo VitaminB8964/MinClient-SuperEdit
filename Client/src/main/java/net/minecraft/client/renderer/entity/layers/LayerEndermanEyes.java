@@ -5,8 +5,8 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.entity.RenderEnderman;
 import net.minecraft.entity.monster.EntityEnderman;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
+import net.optifine.Config;
 import net.optifine.shaders.Shaders;
 
 public class LayerEndermanEyes implements LayerRenderer<EntityEnderman>

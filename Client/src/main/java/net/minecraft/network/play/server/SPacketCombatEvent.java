@@ -1,6 +1,5 @@
 package net.minecraft.network.play.server;
 
-import java.io.IOException;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
@@ -8,6 +7,8 @@ import net.minecraft.network.play.INetHandlerPlayClient;
 import net.minecraft.util.CombatTracker;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
+
+import java.io.IOException;
 
 public class SPacketCombatEvent implements Packet<INetHandlerPlayClient>
 {

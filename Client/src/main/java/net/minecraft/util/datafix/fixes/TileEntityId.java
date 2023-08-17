@@ -1,9 +1,10 @@
 package net.minecraft.util.datafix.fixes;
 
 import com.google.common.collect.Maps;
-import java.util.Map;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.datafix.IFixableData;
+
+import java.util.Map;
 
 public class TileEntityId implements IFixableData
 {

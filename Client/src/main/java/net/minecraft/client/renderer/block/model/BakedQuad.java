@@ -4,8 +4,8 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.client.renderer.vertex.VertexFormat;
-import net.optifine.Config;
 import net.minecraft.util.EnumFacing;
+import net.optifine.Config;
 import net.optifine.model.QuadBounds;
 
 public class BakedQuad

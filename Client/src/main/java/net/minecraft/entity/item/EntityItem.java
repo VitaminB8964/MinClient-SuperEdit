@@ -1,6 +1,5 @@
 package net.minecraft.entity.item;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.MoverType;
@@ -24,6 +23,8 @@ import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
 
 public class EntityItem extends Entity
 {

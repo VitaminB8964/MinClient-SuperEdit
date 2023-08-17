@@ -1,10 +1,11 @@
 package net.minecraft.tileentity;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockFlower;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+
+import javax.annotation.Nullable;
 
 public enum BannerPattern
 {

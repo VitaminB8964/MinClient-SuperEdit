@@ -1,6 +1,5 @@
 package net.minecraft.client.tutorial;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.WorldClient;
@@ -12,6 +11,8 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentKeybind;
 import net.minecraft.world.GameType;
+
+import javax.annotation.Nullable;
 
 public class Tutorial
 {

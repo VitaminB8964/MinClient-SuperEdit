@@ -2,15 +2,16 @@ package net.minecraft.profiler;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.function.Supplier;
 import net.minecraft.client.renderer.GlStateManager;
 import net.optifine.Config;
 import net.optifine.Lagometer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Supplier;
 
 public class Profiler
 {

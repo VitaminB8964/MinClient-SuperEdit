@@ -1,8 +1,9 @@
 package net.minecraft.client.audio;
 
-import javax.annotation.Nullable;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundCategory;
+
+import javax.annotation.Nullable;
 
 public interface ISound
 {

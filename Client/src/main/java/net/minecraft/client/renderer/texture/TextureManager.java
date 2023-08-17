@@ -2,21 +2,13 @@ package net.minecraft.client.renderer.texture;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.io.IOException;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.Map.Entry;
 import net.minecraft.client.resources.IResourceManager;
 import net.minecraft.client.resources.IResourceManagerReloadListener;
 import net.minecraft.crash.CrashReport;
 import net.minecraft.crash.CrashReportCategory;
-import net.minecraft.crash.ICrashReportDetail;
-import net.optifine.Config;
 import net.minecraft.util.ReportedException;
 import net.minecraft.util.ResourceLocation;
+import net.optifine.Config;
 import net.optifine.CustomGuis;
 import net.optifine.EmissiveTextures;
 import net.optifine.RandomEntities;
@@ -25,6 +17,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.annotation.Nullable;
+import java.io.IOException;
+import java.util.*;
+import java.util.Map.Entry;
 
 public class TextureManager implements ITickable, IResourceManagerReloadListener
 {

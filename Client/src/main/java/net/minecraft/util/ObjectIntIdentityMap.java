@@ -3,10 +3,11 @@ package net.minecraft.util;
 import com.google.common.base.Predicates;
 import com.google.common.collect.Iterators;
 import com.google.common.collect.Lists;
+
+import javax.annotation.Nullable;
 import java.util.IdentityHashMap;
 import java.util.Iterator;
 import java.util.List;
-import javax.annotation.Nullable;
 
 public class ObjectIntIdentityMap<T> implements IObjectIntIterable<T>
 {

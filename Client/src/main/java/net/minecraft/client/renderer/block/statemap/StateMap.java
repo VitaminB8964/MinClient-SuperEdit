@@ -2,15 +2,15 @@ package net.minecraft.client.renderer.block.statemap;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
-import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nullable;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
 
 public class StateMap extends StateMapperBase
 {

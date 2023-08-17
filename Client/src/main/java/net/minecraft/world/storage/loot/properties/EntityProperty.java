@@ -3,9 +3,10 @@ package net.minecraft.world.storage.loot.properties;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonSerializationContext;
-import java.util.Random;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.ResourceLocation;
+
+import java.util.Random;
 
 public interface EntityProperty
 {

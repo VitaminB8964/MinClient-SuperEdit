@@ -1,12 +1,13 @@
 package net.minecraft.util;
 
+import org.apache.commons.lang3.Validate;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
 import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-import org.apache.commons.lang3.Validate;
 
 public class NonNullList<E> extends AbstractList<E>
 {

@@ -1,12 +1,13 @@
 package net.minecraft.network.play.client;
 
-import java.io.IOException;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayServer;
 import net.minecraft.util.ResourceLocation;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
 
 public class CPacketSeenAdvancements implements Packet<INetHandlerPlayServer>
 {

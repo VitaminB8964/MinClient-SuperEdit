@@ -3,12 +3,6 @@ package net.minecraft.client.gui;
 import cn.floatingpoint.min.MIN;
 import cn.floatingpoint.min.system.ui.clickgui.ClickUI;
 import com.google.common.util.concurrent.Runnables;
-
-import java.awt.*;
-import java.io.IOException;
-import java.net.URI;
-import java.util.Random;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
@@ -30,6 +24,11 @@ import org.apache.logging.log4j.Logger;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GLContext;
 import org.lwjgl.util.glu.Project;
+
+import java.awt.*;
+import java.io.IOException;
+import java.net.URI;
+import java.util.Random;
 
 public class GuiMainMenu extends GuiScreen {
     private static final Logger LOGGER = LogManager.getLogger();

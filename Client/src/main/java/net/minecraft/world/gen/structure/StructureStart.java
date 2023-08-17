@@ -1,13 +1,14 @@
 package net.minecraft.world.gen.structure;
 
 import com.google.common.collect.Lists;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.world.World;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
 
 public abstract class StructureStart
 {

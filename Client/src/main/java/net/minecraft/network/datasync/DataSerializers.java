@@ -1,9 +1,6 @@
 package net.minecraft.network.datasync;
 
 import com.google.common.base.Optional;
-import java.io.IOException;
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.ItemStack;
@@ -14,6 +11,10 @@ import net.minecraft.util.IntIdentityHashBiMap;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Rotations;
 import net.minecraft.util.text.ITextComponent;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
+import java.util.UUID;
 
 public class DataSerializers
 {

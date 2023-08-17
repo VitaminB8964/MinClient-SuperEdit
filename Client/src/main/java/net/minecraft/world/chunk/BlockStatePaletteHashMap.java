@@ -1,10 +1,11 @@
 package net.minecraft.world.chunk;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.IntIdentityHashBiMap;
+
+import javax.annotation.Nullable;
 
 public class BlockStatePaletteHashMap implements IBlockStatePalette
 {

@@ -3,13 +3,14 @@ package net.minecraft.client.renderer.block.model;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.EnumFacing;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class MultipartBakedModel implements IBakedModel
 {

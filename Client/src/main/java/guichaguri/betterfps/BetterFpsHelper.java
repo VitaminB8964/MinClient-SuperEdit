@@ -1,15 +1,14 @@
 package guichaguri.betterfps;
 
 import com.google.gson.Gson;
-
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-
 import net.minecraft.client.Minecraft;
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
 
 /**
  * A class file that should include Minecraft-dependent methods

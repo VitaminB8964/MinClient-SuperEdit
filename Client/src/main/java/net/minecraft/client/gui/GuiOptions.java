@@ -1,8 +1,5 @@
 package net.minecraft.client.gui;
 
-import java.io.IOException;
-import java.util.Objects;
-
 import guichaguri.betterfps.gui.GuiBetterFpsConfig;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.client.settings.GameSettings;
@@ -10,6 +7,9 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.world.EnumDifficulty;
+
+import java.io.IOException;
+import java.util.Objects;
 
 public class GuiOptions extends GuiScreen {
     private static final GameSettings.Options[] SCREEN_OPTIONS = new GameSettings.Options[]{GameSettings.Options.FOV};

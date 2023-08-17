@@ -1,6 +1,5 @@
 package net.minecraft.entity.monster;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.ai.EntityAIBase;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.datasync.DataParameter;
@@ -10,6 +9,8 @@ import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public abstract class EntitySpellcasterIllager extends AbstractIllager
 {

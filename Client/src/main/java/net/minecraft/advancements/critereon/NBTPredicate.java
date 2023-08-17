@@ -2,16 +2,13 @@ package net.minecraft.advancements.critereon;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonSyntaxException;
-import javax.annotation.Nullable;
 import net.minecraft.command.CommandBase;
 import net.minecraft.entity.Entity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.nbt.JsonToNBT;
-import net.minecraft.nbt.NBTBase;
-import net.minecraft.nbt.NBTException;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.nbt.NBTUtil;
+import net.minecraft.nbt.*;
 import net.minecraft.util.JsonUtils;
+
+import javax.annotation.Nullable;
 
 public class NBTPredicate
 {

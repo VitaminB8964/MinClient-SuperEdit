@@ -1,22 +1,7 @@
 package net.minecraft.world.gen.structure;
 
-import java.util.Map;
-import java.util.Random;
-import java.util.Map.Entry;
-import net.minecraft.block.BlockFlowerPot;
-import net.minecraft.block.BlockLever;
-import net.minecraft.block.BlockPistonBase;
-import net.minecraft.block.BlockPlanks;
-import net.minecraft.block.BlockRedstoneRepeater;
-import net.minecraft.block.BlockSandStone;
-import net.minecraft.block.BlockStairs;
-import net.minecraft.block.BlockStoneBrick;
-import net.minecraft.block.BlockStoneSlab;
-import net.minecraft.block.BlockTripWire;
-import net.minecraft.block.BlockTripWireHook;
-import net.minecraft.block.BlockVine;
+import net.minecraft.block.*;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.IEntityLivingData;
 import net.minecraft.entity.monster.EntityWitch;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.EnumDyeColor;
@@ -33,6 +18,10 @@ import net.minecraft.world.gen.structure.template.PlacementSettings;
 import net.minecraft.world.gen.structure.template.Template;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Random;
 
 public class ComponentScatteredFeaturePieces
 {

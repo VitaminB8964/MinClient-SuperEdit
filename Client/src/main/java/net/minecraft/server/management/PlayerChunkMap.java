@@ -7,19 +7,7 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Set;
-import java.util.Map.Entry;
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayerMP;
-import net.optifine.Config;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.math.MathHelper;
@@ -27,6 +15,11 @@ import net.minecraft.world.WorldProvider;
 import net.minecraft.world.WorldServer;
 import net.minecraft.world.chunk.Chunk;
 import net.optifine.ChunkPosComparator;
+import net.optifine.Config;
+
+import javax.annotation.Nullable;
+import java.util.*;
+import java.util.Map.Entry;
 
 public class PlayerChunkMap
 {

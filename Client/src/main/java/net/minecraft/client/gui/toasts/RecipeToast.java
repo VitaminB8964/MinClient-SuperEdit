@@ -1,13 +1,13 @@
 package net.minecraft.client.gui.toasts;
 
 import com.google.common.collect.Lists;
-import java.util.List;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.resources.I18n;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.IRecipe;
+
+import java.util.List;
 
 public class RecipeToast implements IToast
 {

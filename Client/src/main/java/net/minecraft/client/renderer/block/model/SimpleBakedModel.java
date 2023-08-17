@@ -2,14 +2,15 @@ package net.minecraft.client.renderer.block.model;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.List;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Map;
 
 public class SimpleBakedModel implements IBakedModel
 {

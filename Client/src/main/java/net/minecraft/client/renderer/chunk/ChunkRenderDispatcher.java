@@ -7,6 +7,14 @@ import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.ListenableFutureTask;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.*;
+import net.minecraft.client.renderer.vertex.VertexBuffer;
+import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.util.math.MathHelper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
@@ -14,18 +22,6 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.BufferBuilder;
-import net.minecraft.client.renderer.GlStateManager;
-import net.minecraft.client.renderer.OpenGlHelper;
-import net.minecraft.client.renderer.RegionRenderCacheBuilder;
-import net.minecraft.client.renderer.VertexBufferUploader;
-import net.minecraft.client.renderer.WorldVertexBufferUploader;
-import net.minecraft.client.renderer.vertex.VertexBuffer;
-import net.minecraft.util.BlockRenderLayer;
-import net.minecraft.util.math.MathHelper;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class ChunkRenderDispatcher
 {

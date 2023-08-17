@@ -1,14 +1,6 @@
 package net.minecraft.world.gen.structure.template;
 
 import com.google.common.collect.Maps;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.util.Map;
-import javax.annotation.Nullable;
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.server.MinecraftServer;
@@ -16,6 +8,10 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.datafix.FixTypes;
 import org.apache.commons.io.IOUtils;
+
+import javax.annotation.Nullable;
+import java.io.*;
+import java.util.Map;
 
 public class TemplateManager
 {

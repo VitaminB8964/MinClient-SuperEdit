@@ -3,10 +3,6 @@ package net.minecraft.client.renderer.debug;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Ordering;
 import com.google.common.collect.Sets;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Set;
-import java.util.Map.Entry;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderGlobal;
@@ -14,6 +10,11 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public class DebugRendererNeighborsUpdate implements DebugRenderer.IDebugRenderer
 {

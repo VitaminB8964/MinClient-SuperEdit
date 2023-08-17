@@ -1,18 +1,18 @@
 package net.minecraft.client.renderer.texture;
 
-import java.awt.image.BufferedImage;
-import java.io.Closeable;
-import java.io.IOException;
 import net.minecraft.client.resources.IResource;
 import net.minecraft.client.resources.IResourceManager;
 import net.minecraft.client.resources.data.TextureMetadataSection;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
+import net.optifine.Config;
 import net.optifine.EmissiveTextures;
 import net.optifine.shaders.ShadersTex;
 import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 
 public class SimpleTexture extends AbstractTexture
 {

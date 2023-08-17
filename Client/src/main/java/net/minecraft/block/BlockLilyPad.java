@@ -1,7 +1,5 @@
 package net.minecraft.block;
 
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
@@ -12,6 +10,9 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class BlockLilyPad extends BlockBush
 {

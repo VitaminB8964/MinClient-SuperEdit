@@ -1,13 +1,14 @@
 package net.minecraft.entity.ai;
 
 import com.google.common.base.Predicate;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.pathfinding.PathNavigate;
 import net.minecraft.pathfinding.PathNavigateFlying;
 import net.minecraft.pathfinding.PathNavigateGround;
 import net.minecraft.pathfinding.PathNodeType;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class EntityAIFollow extends EntityAIBase
 {

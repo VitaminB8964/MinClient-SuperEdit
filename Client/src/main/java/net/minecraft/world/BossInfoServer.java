@@ -2,13 +2,14 @@ package net.minecraft.world;
 
 import com.google.common.base.Objects;
 import com.google.common.collect.Sets;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Set;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.network.play.server.SPacketUpdateBossInfo;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.text.ITextComponent;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Set;
 
 public class BossInfoServer extends BossInfo
 {

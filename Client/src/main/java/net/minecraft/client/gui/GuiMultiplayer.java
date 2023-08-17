@@ -2,8 +2,6 @@ package net.minecraft.client.gui;
 
 import com.google.common.base.Splitter;
 import com.google.common.collect.Lists;
-import java.io.IOException;
-import java.util.List;
 import net.minecraft.client.multiplayer.GuiConnecting;
 import net.minecraft.client.multiplayer.ServerData;
 import net.minecraft.client.multiplayer.ServerList;
@@ -14,6 +12,9 @@ import net.minecraft.client.resources.I18n;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.lwjgl.input.Keyboard;
+
+import java.io.IOException;
+import java.util.List;
 
 public class GuiMultiplayer extends GuiScreen
 {
@@ -43,6 +44,7 @@ public class GuiMultiplayer extends GuiScreen
     {
         this.parentScreen = parentScreen;
     }
+
 
     /**
      * Adds the buttons (and other controls) to the screen in question. Called when the GUI is displayed and when the

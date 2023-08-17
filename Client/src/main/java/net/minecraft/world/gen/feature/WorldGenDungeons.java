@@ -1,6 +1,5 @@
 package net.minecraft.world.gen.feature;
 
-import java.util.Random;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.EntityList;
 import net.minecraft.entity.monster.EntitySkeleton;
@@ -17,6 +16,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.Random;
 
 public class WorldGenDungeons extends WorldGenerator
 {

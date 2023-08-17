@@ -2,15 +2,16 @@ package net.minecraft.world.gen;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.List;
-import java.util.Locale;
-import java.util.Map;
-import java.util.Map.Entry;
 import net.minecraft.block.Block;
 import net.minecraft.init.Biomes;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.biome.Biome;
+
+import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.Map.Entry;
 
 public class FlatGeneratorInfo
 {

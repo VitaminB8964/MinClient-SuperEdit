@@ -4,7 +4,6 @@ import cn.floatingpoint.min.management.Managers;
 import io.netty.buffer.Unpooled;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
-import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.client.CPacketCustomPayload;
 

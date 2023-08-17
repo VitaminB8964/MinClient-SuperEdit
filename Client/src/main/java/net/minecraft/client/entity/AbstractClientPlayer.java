@@ -1,8 +1,6 @@
 package net.minecraft.client.entity;
 
 import com.mojang.authlib.GameProfile;
-import java.io.File;
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.network.NetworkPlayerInfo;
 import net.minecraft.client.renderer.ImageBufferDownload;
@@ -15,13 +13,15 @@ import net.minecraft.entity.ai.attributes.IAttributeInstance;
 import net.minecraft.entity.passive.EntityShoulderRiding;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemBow;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.StringUtils;
 import net.minecraft.world.GameType;
 import net.minecraft.world.World;
+import net.optifine.Config;
 import net.optifine.player.CapeUtils;
 import net.optifine.player.PlayerConfigurations;
+
+import javax.annotation.Nullable;
 
 public abstract class AbstractClientPlayer extends EntityPlayer
 {

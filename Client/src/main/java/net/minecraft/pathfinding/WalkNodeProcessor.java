@@ -1,15 +1,7 @@
 package net.minecraft.pathfinding;
 
 import com.google.common.collect.Sets;
-import java.util.EnumSet;
-import java.util.Set;
-import javax.annotation.Nullable;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockDoor;
-import net.minecraft.block.BlockFence;
-import net.minecraft.block.BlockFenceGate;
-import net.minecraft.block.BlockRailBase;
-import net.minecraft.block.BlockWall;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLiving;
@@ -19,6 +11,10 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nullable;
+import java.util.EnumSet;
+import java.util.Set;
 
 public class WalkNodeProcessor extends NodeProcessor
 {

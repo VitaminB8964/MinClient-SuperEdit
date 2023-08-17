@@ -1,6 +1,5 @@
 package net.minecraft.util;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -11,6 +10,8 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.Explosion;
+
+import javax.annotation.Nullable;
 
 public class DamageSource
 {

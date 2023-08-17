@@ -1,8 +1,9 @@
 package net.minecraft.util;
 
+import net.minecraft.client.gui.FontRenderer;
+
 import java.util.List;
 import java.util.Random;
-import net.minecraft.client.gui.FontRenderer;
 
 public class EnchantmentNameParts
 {

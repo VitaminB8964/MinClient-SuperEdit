@@ -4,8 +4,6 @@ import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Multiset;
 import com.google.common.collect.Multisets;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockDirt;
 import net.minecraft.block.BlockStone;
 import net.minecraft.block.material.MapColor;
@@ -24,6 +22,9 @@ import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.Chunk;
 import net.minecraft.world.storage.MapData;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ItemMap extends ItemMapBase
 {

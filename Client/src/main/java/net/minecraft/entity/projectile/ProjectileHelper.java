@@ -1,12 +1,13 @@
 package net.minecraft.entity.projectile;
 
-import java.util.List;
 import net.minecraft.entity.Entity;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public final class ProjectileHelper
 {

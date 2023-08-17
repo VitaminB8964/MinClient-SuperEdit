@@ -3,10 +3,11 @@ package net.minecraft.world.storage.loot.conditions;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
-import java.util.Random;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.LootContext;
+
+import java.util.Random;
 
 public class RandomChance implements LootCondition
 {

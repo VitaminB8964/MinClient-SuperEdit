@@ -1,7 +1,8 @@
 package net.minecraft.client.gui.recipebook;
 
-import java.util.List;
 import net.minecraft.item.crafting.IRecipe;
+
+import java.util.List;
 
 public interface IRecipeUpdateListener
 {

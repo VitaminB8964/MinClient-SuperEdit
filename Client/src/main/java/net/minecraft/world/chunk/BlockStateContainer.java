@@ -1,12 +1,13 @@
 package net.minecraft.world.chunk;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.util.BitArray;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
 
 public class BlockStateContainer implements IBlockStatePaletteResizer
 {

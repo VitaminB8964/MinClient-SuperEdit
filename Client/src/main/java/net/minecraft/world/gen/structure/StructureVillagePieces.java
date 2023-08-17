@@ -1,24 +1,9 @@
 package net.minecraft.world.gen.structure;
 
 import com.google.common.collect.Lists;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockCrops;
-import net.minecraft.block.BlockDoor;
-import net.minecraft.block.BlockLadder;
-import net.minecraft.block.BlockLog;
-import net.minecraft.block.BlockNewLog;
-import net.minecraft.block.BlockOldLog;
-import net.minecraft.block.BlockPlanks;
-import net.minecraft.block.BlockSandStone;
-import net.minecraft.block.BlockStairs;
-import net.minecraft.block.BlockTorch;
+import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.entity.IEntityLivingData;
 import net.minecraft.entity.monster.EntityZombieVillager;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.init.Biomes;
@@ -29,13 +14,14 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
-import net.minecraft.world.biome.Biome;
-import net.minecraft.world.biome.BiomeDesert;
-import net.minecraft.world.biome.BiomeProvider;
-import net.minecraft.world.biome.BiomeSavanna;
-import net.minecraft.world.biome.BiomeTaiga;
+import net.minecraft.world.biome.*;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Random;
 
 public class StructureVillagePieces
 {

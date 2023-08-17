@@ -1,7 +1,7 @@
 package net.minecraft.entity;
 
-import java.util.UUID;
 import javax.annotation.Nullable;
+import java.util.UUID;
 
 public interface IEntityOwnable
 {

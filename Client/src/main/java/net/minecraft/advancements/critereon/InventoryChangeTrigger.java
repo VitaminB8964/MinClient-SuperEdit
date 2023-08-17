@@ -5,10 +5,6 @@ import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import net.minecraft.advancements.ICriterionTrigger;
 import net.minecraft.advancements.PlayerAdvancements;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -16,6 +12,11 @@ import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class InventoryChangeTrigger implements ICriterionTrigger<InventoryChangeTrigger.Instance>
 {

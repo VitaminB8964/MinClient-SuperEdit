@@ -5,11 +5,10 @@ import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.module.Category;
 import cn.floatingpoint.min.system.module.Module;
 import cn.floatingpoint.min.system.module.impl.boost.BoostModule;
-import cn.floatingpoint.min.system.module.impl.boost.impl.FastLoad;
-import cn.floatingpoint.min.system.module.impl.boost.impl.MemoryManager;
-import cn.floatingpoint.min.system.module.impl.boost.impl.Sprint;
+import cn.floatingpoint.min.system.module.impl.boost.impl.*;
 import cn.floatingpoint.min.system.module.impl.misc.MiscModule;
 import cn.floatingpoint.min.system.module.impl.misc.impl.*;
+import cn.floatingpoint.min.system.module.impl.misc.impl.AutoBan;
 import cn.floatingpoint.min.system.module.impl.render.RenderModule;
 import cn.floatingpoint.min.system.module.impl.render.impl.*;
 import cn.floatingpoint.min.system.module.value.Value;
@@ -27,6 +26,7 @@ public class ModuleManager implements Manager {
     public final LinkedHashMap<String, BoostModule> boostModules = new LinkedHashMap<>();
     public final LinkedHashMap<String, MiscModule> miscModules = new LinkedHashMap<>();
     public final LinkedHashMap<String, RenderModule> renderModules = new LinkedHashMap<>();
+
     public final LinkedHashMap<String, Module> modules = new LinkedHashMap<>();
     public final TimeHelper antiNoise = new TimeHelper();
 
@@ -36,11 +36,18 @@ public class ModuleManager implements Manager {
     }
 
     @Override
-    public void init() {
+    public void init(){
         // Boost
+        boostModules.put("AutoClicker",new AutoClicker());
+        boostModules.put("Sprint", new Sprint());
+        boostModules.put("Reach",new Reach());
+        boostModules.put("InvWalk",new InvWalk());
+        boostModules.put("WTap",new WTap());
+        boostModules.put("AutoBan", new AutoBan());
         boostModules.put("FastLoad", new FastLoad());
         boostModules.put("MemoryManager", new MemoryManager());
-        boostModules.put("Sprint", new Sprint());
+        boostModules.put("AutoJump",new AutoJump());
+        boostModules.put("AirWalk",new AirWalk());
         // Misc
         miscModules.put("AutoText", new AutoText());
         miscModules.put("CheaterDetector", new CheaterDetector());
@@ -48,6 +55,7 @@ public class ModuleManager implements Manager {
         miscModules.put("RankDisplay", new RankDisplay());
         miscModules.put("TerminateBreakingBlock", new TerminateBreakingBlock());
         miscModules.put("WorldTimeChanger", new WorldTimeChange());
+        miscModules.put("TitleDisplay",new TitleDisplay());
         // Render
         renderModules.put("Animation", new Animation());
         renderModules.put("ArmorDisplay", new ArmorDisplay());

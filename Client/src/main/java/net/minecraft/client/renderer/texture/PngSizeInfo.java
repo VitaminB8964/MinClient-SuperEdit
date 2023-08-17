@@ -1,11 +1,11 @@
 package net.minecraft.client.renderer.texture;
 
-import java.io.Closeable;
+import net.minecraft.client.resources.IResource;
+import org.apache.commons.io.IOUtils;
+
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import net.minecraft.client.resources.IResource;
-import org.apache.commons.io.IOUtils;
 
 public class PngSizeInfo
 {

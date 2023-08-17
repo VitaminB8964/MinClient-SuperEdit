@@ -1,9 +1,6 @@
 package net.minecraft.block;
 
 import com.google.common.base.Predicate;
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.properties.PropertyEnum;
@@ -22,6 +19,10 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Random;
 
 public class BlockRailDetector extends BlockRailBase
 {

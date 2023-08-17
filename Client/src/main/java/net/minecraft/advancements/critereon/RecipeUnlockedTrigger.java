@@ -6,9 +6,6 @@ import com.google.common.collect.Sets;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
 import net.minecraft.advancements.ICriterionTrigger;
 import net.minecraft.advancements.PlayerAdvancements;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -16,6 +13,10 @@ import net.minecraft.item.crafting.CraftingManager;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.ResourceLocation;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class RecipeUnlockedTrigger implements ICriterionTrigger<RecipeUnlockedTrigger.Instance>
 {

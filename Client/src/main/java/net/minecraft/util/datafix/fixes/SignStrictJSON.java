@@ -1,19 +1,14 @@
 package net.minecraft.util.datafix.fixes;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonDeserializationContext;
-import com.google.gson.JsonDeserializer;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParseException;
-import java.lang.reflect.Type;
+import com.google.gson.*;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.JsonUtils;
 import net.minecraft.util.StringUtils;
 import net.minecraft.util.datafix.IFixableData;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
+
+import java.lang.reflect.Type;
 
 public class SignStrictJSON implements IFixableData
 {

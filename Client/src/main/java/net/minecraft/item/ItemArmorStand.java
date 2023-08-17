@@ -1,7 +1,5 @@
 package net.minecraft.item;
 
-import java.util.List;
-import java.util.Random;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.item.EntityArmorStand;
@@ -16,6 +14,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Rotations;
 import net.minecraft.world.World;
+
+import java.util.List;
+import java.util.Random;
 
 public class ItemArmorStand extends Item
 {

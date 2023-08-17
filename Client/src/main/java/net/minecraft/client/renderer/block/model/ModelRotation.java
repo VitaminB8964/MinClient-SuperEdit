@@ -1,15 +1,14 @@
 package net.minecraft.client.renderer.block.model;
 
 import com.google.common.collect.Maps;
-
-import java.util.Map;
-
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.common.model.IModelState;
 import net.minecraftforge.common.model.ITransformation;
 import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector3f;
+
+import java.util.Map;
 
 public enum ModelRotation implements IModelState, ITransformation {
     X0_Y0(0, 0),

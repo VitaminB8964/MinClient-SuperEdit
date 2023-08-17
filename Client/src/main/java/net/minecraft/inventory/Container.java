@@ -2,11 +2,6 @@ package net.minecraft.inventory;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
-
-import java.util.List;
-import java.util.Set;
-import javax.annotation.Nullable;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -18,6 +13,10 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Set;
 
 public abstract class Container {
     public NonNullList<ItemStack> inventoryItemStacks = NonNullList.create();

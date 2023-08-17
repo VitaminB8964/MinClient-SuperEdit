@@ -2,12 +2,13 @@ package net.minecraft.client.renderer.block.statemap;
 
 import com.google.common.collect.Maps;
 import com.google.common.collect.UnmodifiableIterator;
-import java.util.Map;
-import java.util.Map.Entry;
 import net.minecraft.block.Block;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+
+import java.util.Map;
+import java.util.Map.Entry;
 
 public abstract class StateMapperBase implements IStateMapper
 {

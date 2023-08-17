@@ -1,10 +1,11 @@
 package net.minecraft.client.settings;
 
-import java.util.ArrayList;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
+
+import java.util.ArrayList;
 
 public class HotbarSnapshot extends ArrayList<ItemStack>
 {

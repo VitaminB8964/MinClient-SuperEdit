@@ -1,20 +1,17 @@
 package net.minecraft.client.resources;
 
 import com.google.common.collect.ImmutableSet;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.client.renderer.texture.TextureUtil;
 import net.minecraft.client.resources.data.IMetadataSection;
 import net.minecraft.client.resources.data.MetadataSerializer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Util;
+
+import javax.annotation.Nullable;
+import java.awt.image.BufferedImage;
+import java.io.*;
+import java.net.URL;
+import java.util.Set;
 
 public class DefaultResourcePack implements IResourcePack
 {

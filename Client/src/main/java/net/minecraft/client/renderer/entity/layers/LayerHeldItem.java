@@ -1,6 +1,5 @@
 package net.minecraft.client.renderer.entity.layers;
 
-import cn.floatingpoint.min.system.module.impl.render.impl.Animation;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBiped;
 import net.minecraft.client.renderer.GlStateManager;

@@ -1,9 +1,6 @@
 package net.minecraft.world.gen.structure;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockPlanks;
 import net.minecraft.block.BlockRail;
 import net.minecraft.block.BlockRailBase;
@@ -24,6 +21,10 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.gen.structure.template.TemplateManager;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Random;
 
 public class StructureMineshaftPieces
 {

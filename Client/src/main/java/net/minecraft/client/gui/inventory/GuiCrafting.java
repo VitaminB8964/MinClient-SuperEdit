@@ -1,6 +1,5 @@
 package net.minecraft.client.gui.inventory;
 
-import java.io.IOException;
 import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.GuiButtonImage;
 import net.minecraft.client.gui.recipebook.GuiRecipeBook;
@@ -14,6 +13,8 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.io.IOException;
 
 public class GuiCrafting extends GuiContainer implements IRecipeShownListener
 {

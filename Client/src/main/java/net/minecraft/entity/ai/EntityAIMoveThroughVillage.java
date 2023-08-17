@@ -1,7 +1,6 @@
 package net.minecraft.entity.ai;
 
 import com.google.common.collect.Lists;
-import java.util.List;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.pathfinding.Path;
 import net.minecraft.pathfinding.PathNavigateGround;
@@ -10,6 +9,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.village.Village;
 import net.minecraft.village.VillageDoorInfo;
+
+import java.util.List;
 
 public class EntityAIMoveThroughVillage extends EntityAIBase
 {

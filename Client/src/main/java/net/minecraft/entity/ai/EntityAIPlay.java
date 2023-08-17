@@ -1,9 +1,10 @@
 package net.minecraft.entity.ai;
 
-import java.util.List;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.util.math.Vec3d;
+
+import java.util.List;
 
 public class EntityAIPlay extends EntityAIBase
 {

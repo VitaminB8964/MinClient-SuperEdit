@@ -1,16 +1,11 @@
 package net.minecraft.tileentity;
 
-import java.util.Arrays;
 import net.minecraft.block.BlockBrewingStand;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Items;
-import net.minecraft.inventory.Container;
-import net.minecraft.inventory.ContainerBrewingStand;
-import net.minecraft.inventory.ISidedInventory;
-import net.minecraft.inventory.InventoryHelper;
-import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.inventory.*;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -22,6 +17,8 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.datafix.FixTypes;
 import net.minecraft.util.datafix.walkers.ItemStackDataLists;
 import net.minecraft.util.math.BlockPos;
+
+import java.util.Arrays;
 
 public class TileEntityBrewingStand extends TileEntityLockable implements ITickable, ISidedInventory
 {

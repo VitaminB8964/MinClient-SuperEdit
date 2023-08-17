@@ -1,8 +1,6 @@
 package net.minecraft.item;
 
 import com.google.common.base.Predicate;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityAreaEffectCloud;
@@ -20,6 +18,9 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class ItemGlassBottle extends Item
 {

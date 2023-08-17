@@ -5,7 +5,6 @@ import cn.floatingpoint.min.system.hyt.party.Sender;
 import cn.floatingpoint.min.system.ui.components.ClickableButton;
 import cn.floatingpoint.min.utils.render.RenderUtil;
 import net.minecraft.client.gui.GuiScreen;
-import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;
 
 import java.awt.*;

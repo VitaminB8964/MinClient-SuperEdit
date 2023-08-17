@@ -1,9 +1,10 @@
 package net.minecraft.entity.monster;
 
 import com.google.common.base.Predicate;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.IAnimals;
+
+import javax.annotation.Nullable;
 
 public interface IMob extends IAnimals
 {

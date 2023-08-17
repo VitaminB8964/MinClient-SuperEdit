@@ -1,9 +1,10 @@
 package net.minecraft.item;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.network.Packet;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class ItemMapBase extends Item
 {

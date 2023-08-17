@@ -1,11 +1,12 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Lists;
-import java.util.List;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
+
+import java.util.List;
 
 public class GuiUtilRenderComponents
 {

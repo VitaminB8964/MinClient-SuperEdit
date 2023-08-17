@@ -1,11 +1,12 @@
 package net.minecraft.client.gui;
 
-import java.io.IOException;
-import javax.annotation.Nullable;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
 
 public class GuiGameOver extends GuiScreen
 {

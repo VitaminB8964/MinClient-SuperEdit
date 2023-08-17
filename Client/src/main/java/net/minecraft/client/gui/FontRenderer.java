@@ -5,10 +5,6 @@ import cn.floatingpoint.min.system.module.impl.render.impl.NameProtect;
 import com.ibm.icu.text.ArabicShaping;
 import com.ibm.icu.text.ArabicShapingException;
 import com.ibm.icu.text.Bidi;
-import java.awt.image.BufferedImage;
-import java.io.IOException;
-import java.util.*;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.BufferBuilder;
 import net.minecraft.client.renderer.GlStateManager;
@@ -20,14 +16,17 @@ import net.minecraft.client.resources.IResource;
 import net.minecraft.client.resources.IResourceManager;
 import net.minecraft.client.resources.IResourceManagerReloadListener;
 import net.minecraft.client.settings.GameSettings;
-import net.optifine.Config;
 import net.minecraft.util.ResourceLocation;
+import net.optifine.Config;
 import net.optifine.CustomColors;
 import net.optifine.render.GlBlendState;
 import net.optifine.util.FontUtils;
 import org.apache.commons.io.IOUtils;
 
 import javax.annotation.ParametersAreNonnullByDefault;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.util.*;
 
 @ParametersAreNonnullByDefault
 public class FontRenderer implements IResourceManagerReloadListener

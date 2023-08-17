@@ -5,12 +5,6 @@ import cn.floatingpoint.min.system.module.impl.render.impl.AttackIndicator;
 import cn.floatingpoint.min.system.module.impl.render.impl.PotionDisplay;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-
-import java.awt.*;
-import java.util.*;
-import java.util.List;
-import javax.annotation.Nullable;
-
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.chat.IChatListener;
@@ -34,19 +28,25 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.scoreboard.ScoreObjective;
 import net.minecraft.scoreboard.ScorePlayerTeam;
 import net.minecraft.scoreboard.Scoreboard;
-import net.minecraft.util.math.RayTraceResult;
-import net.optifine.Config;
 import net.minecraft.util.EnumHandSide;
 import net.minecraft.util.FoodStats;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.text.ChatType;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.border.WorldBorder;
+import net.optifine.Config;
 import net.optifine.CustomColors;
 import net.optifine.CustomItems;
 import net.optifine.TextureAnimations;
+
+import javax.annotation.Nullable;
+import java.awt.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
 
 public class GuiIngame extends Gui {
     private static final ResourceLocation VIGNETTE_TEX_PATH = new ResourceLocation("textures/misc/vignette.png");

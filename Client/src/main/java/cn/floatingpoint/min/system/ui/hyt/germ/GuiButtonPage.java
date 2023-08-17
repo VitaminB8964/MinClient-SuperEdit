@@ -3,7 +3,6 @@ package cn.floatingpoint.min.system.ui.hyt.germ;
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.utils.render.RenderUtil;
 import net.minecraft.client.gui.GuiScreen;
-import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;
 
 import java.awt.*;

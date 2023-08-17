@@ -1,12 +1,13 @@
 package net.minecraft.pathfinding;
 
 import com.google.common.collect.Sets;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+
+import javax.annotation.Nullable;
+import java.util.Set;
 
 public class PathFinder
 {

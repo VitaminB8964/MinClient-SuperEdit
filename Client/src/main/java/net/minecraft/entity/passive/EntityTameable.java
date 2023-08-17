@@ -1,8 +1,6 @@
 package net.minecraft.entity.passive;
 
 import com.google.common.base.Optional;
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.advancements.CriteriaTriggers;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -19,6 +17,9 @@ import net.minecraft.server.management.PreYggdrasilConverter;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.UUID;
 
 public abstract class EntityTameable extends EntityAnimal implements IEntityOwnable
 {

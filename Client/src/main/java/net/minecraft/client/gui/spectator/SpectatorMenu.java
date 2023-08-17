@@ -2,7 +2,6 @@ package net.minecraft.client.gui.spectator;
 
 import com.google.common.base.MoreObjects;
 import com.google.common.collect.Lists;
-import java.util.List;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiSpectator;
@@ -10,6 +9,8 @@ import net.minecraft.client.gui.spectator.categories.SpectatorDetails;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
+
+import java.util.List;
 
 public class SpectatorMenu
 {

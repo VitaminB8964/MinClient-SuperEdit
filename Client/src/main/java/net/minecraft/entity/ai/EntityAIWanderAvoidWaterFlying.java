@@ -1,7 +1,5 @@
 package net.minecraft.entity.ai;
 
-import java.util.Iterator;
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLeaves;
 import net.minecraft.entity.EntityCreature;
@@ -10,6 +8,9 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
+
+import javax.annotation.Nullable;
+import java.util.Iterator;
 
 public class EntityAIWanderAvoidWaterFlying extends EntityAIWanderAvoidWater
 {

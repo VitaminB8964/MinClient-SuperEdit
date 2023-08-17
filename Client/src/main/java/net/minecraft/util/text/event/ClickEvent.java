@@ -1,6 +1,7 @@
 package net.minecraft.util.text.event;
 
 import com.google.common.collect.Maps;
+
 import java.util.Map;
 
 public class ClickEvent

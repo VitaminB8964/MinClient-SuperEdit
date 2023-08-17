@@ -1,9 +1,10 @@
 package net.minecraft.client.audio;
 
-import javax.annotation.Nullable;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.SoundEvent;
+
+import javax.annotation.Nullable;
 
 public abstract class PositionedSound implements ISound
 {

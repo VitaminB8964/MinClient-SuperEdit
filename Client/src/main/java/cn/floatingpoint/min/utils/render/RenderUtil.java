@@ -16,7 +16,6 @@ import org.lwjgl.opengl.GL11;
 import java.awt.*;
 
 import static org.lwjgl.opengl.GL11.*;
-import static org.lwjgl.opengl.GL11.GL_BLEND;
 
 public class RenderUtil {
     private static final ShaderUtil roundedShader = new ShaderUtil();

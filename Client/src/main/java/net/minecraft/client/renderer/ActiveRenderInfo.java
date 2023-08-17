@@ -1,16 +1,16 @@
 package net.minecraft.client.renderer;
 
-import java.nio.FloatBuffer;
-import java.nio.IntBuffer;
 import net.minecraft.block.BlockLiquid;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import org.lwjgl.util.glu.GLU;
+
+import java.nio.FloatBuffer;
+import java.nio.IntBuffer;
 
 public class ActiveRenderInfo
 {

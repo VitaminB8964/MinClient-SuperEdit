@@ -1,7 +1,6 @@
 package net.minecraft.block.state;
 
 import com.google.common.collect.Lists;
-import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockPistonBase;
 import net.minecraft.block.material.EnumPushReaction;
@@ -10,6 +9,8 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+
+import java.util.List;
 
 public class BlockPistonStructureHelper
 {

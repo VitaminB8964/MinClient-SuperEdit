@@ -1,13 +1,10 @@
 package net.minecraft.world.storage;
 
-import javax.annotation.Nullable;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.DimensionType;
-import net.minecraft.world.EnumDifficulty;
-import net.minecraft.world.GameRules;
-import net.minecraft.world.GameType;
-import net.minecraft.world.WorldType;
+import net.minecraft.world.*;
+
+import javax.annotation.Nullable;
 
 public class DerivedWorldInfo extends WorldInfo
 {

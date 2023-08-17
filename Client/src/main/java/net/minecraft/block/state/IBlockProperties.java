@@ -1,7 +1,5 @@
 package net.minecraft.block.state;
 
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.material.EnumPushReaction;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -17,6 +15,9 @@ import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public interface IBlockProperties
 {

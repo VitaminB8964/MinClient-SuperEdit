@@ -1,6 +1,5 @@
 package net.minecraft.client.particle;
 
-import javax.annotation.Nullable;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFalling;
 import net.minecraft.block.state.IBlockState;
@@ -12,6 +11,8 @@ import net.minecraft.util.EnumBlockRenderType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public class ParticleFallingDust extends Particle
 {

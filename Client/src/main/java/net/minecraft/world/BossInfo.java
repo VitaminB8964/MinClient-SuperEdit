@@ -1,7 +1,8 @@
 package net.minecraft.world;
 
-import java.util.UUID;
 import net.minecraft.util.text.ITextComponent;
+
+import java.util.UUID;
 
 public abstract class BossInfo
 {

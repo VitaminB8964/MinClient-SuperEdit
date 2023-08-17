@@ -3,11 +3,12 @@ package net.minecraft.entity.ai.attributes;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
+
+import javax.annotation.Nullable;
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 import java.util.UUID;
-import javax.annotation.Nullable;
 
 public class ModifiableAttributeInstance implements IAttributeInstance
 {

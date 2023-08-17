@@ -1,9 +1,6 @@
 package net.minecraft.world.biome;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.crash.CrashReport;
 import net.minecraft.crash.CrashReportCategory;
 import net.minecraft.init.Biomes;
@@ -14,6 +11,10 @@ import net.minecraft.world.gen.ChunkGeneratorSettings;
 import net.minecraft.world.gen.layer.GenLayer;
 import net.minecraft.world.gen.layer.IntCache;
 import net.minecraft.world.storage.WorldInfo;
+
+import javax.annotation.Nullable;
+import java.util.List;
+import java.util.Random;
 
 public class BiomeProvider
 {

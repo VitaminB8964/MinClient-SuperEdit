@@ -1,6 +1,5 @@
 package net.minecraft.entity.monster;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.init.SoundEvents;
@@ -12,6 +11,8 @@ import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
 
 public class EntityMagmaCube extends EntitySlime
 {

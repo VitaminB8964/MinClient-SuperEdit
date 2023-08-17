@@ -4,15 +4,16 @@ import com.google.common.base.MoreObjects;
 import com.google.common.collect.Lists;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
-import java.io.IOException;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayClient;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.GameType;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
+import java.util.List;
 
 public class SPacketPlayerListItem implements Packet<INetHandlerPlayClient>
 {

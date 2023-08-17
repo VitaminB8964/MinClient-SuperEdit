@@ -7,23 +7,6 @@ import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
-
-import java.awt.image.BufferedImage;
-import java.io.Closeable;
-import java.io.File;
-import java.io.FileFilter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.regex.Pattern;
-import javax.annotation.Nullable;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreenWorking;
 import net.minecraft.client.renderer.texture.DynamicTexture;
@@ -42,6 +25,14 @@ import org.apache.commons.io.comparator.LastModifiedFileComparator;
 import org.apache.commons.io.filefilter.TrueFileFilter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.awt.image.BufferedImage;
+import java.io.*;
+import java.nio.file.Files;
+import java.util.*;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.regex.Pattern;
 
 public class ResourcePackRepository {
     private static final Logger LOGGER = LogManager.getLogger();

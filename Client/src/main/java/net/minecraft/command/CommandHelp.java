@@ -1,11 +1,5 @@
 package net.minecraft.command;
 
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
-import javax.annotation.Nullable;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.tileentity.CommandBlockBaseLogic;
 import net.minecraft.util.math.BlockPos;
@@ -14,6 +8,9 @@ import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextComponentTranslation;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.util.text.event.ClickEvent;
+
+import javax.annotation.Nullable;
+import java.util.*;
 
 public class CommandHelp extends CommandBase
 {

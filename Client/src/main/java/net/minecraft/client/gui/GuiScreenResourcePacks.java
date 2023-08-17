@@ -1,17 +1,13 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Lists;
+import net.minecraft.client.renderer.OpenGlHelper;
+import net.minecraft.client.resources.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.List;
-import net.minecraft.client.renderer.OpenGlHelper;
-import net.minecraft.client.resources.I18n;
-import net.minecraft.client.resources.ResourcePackListEntry;
-import net.minecraft.client.resources.ResourcePackListEntryDefault;
-import net.minecraft.client.resources.ResourcePackListEntryFound;
-import net.minecraft.client.resources.ResourcePackListEntryServer;
-import net.minecraft.client.resources.ResourcePackRepository;
 
 public class GuiScreenResourcePacks extends GuiScreen
 {

@@ -1,6 +1,5 @@
 package net.minecraft.client.gui.toasts;
 
-import java.util.List;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.DisplayInfo;
 import net.minecraft.advancements.FrameType;
@@ -8,9 +7,10 @@ import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.client.resources.I18n;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.List;
 
 public class AdvancementToast implements IToast
 {

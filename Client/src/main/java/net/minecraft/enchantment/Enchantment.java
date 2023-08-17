@@ -1,8 +1,6 @@
 package net.minecraft.enchantment;
 
 import com.google.common.collect.Lists;
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.EnumCreatureAttribute;
@@ -13,6 +11,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.registry.RegistryNamespaced;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraft.util.text.translation.I18n;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public abstract class Enchantment
 {

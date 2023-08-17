@@ -4,18 +4,14 @@ import com.google.common.collect.Iterables;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.minecraft.MinecraftSessionService;
 import com.mojang.authlib.properties.Property;
-import java.util.UUID;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockSkull;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTUtil;
 import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.server.management.PlayerProfileCache;
-import net.minecraft.util.EnumFacing;
-import net.minecraft.util.ITickable;
-import net.minecraft.util.Mirror;
-import net.minecraft.util.Rotation;
-import net.minecraft.util.StringUtils;
+import net.minecraft.util.*;
+
+import javax.annotation.Nullable;
 
 public class TileEntitySkull extends TileEntity implements ITickable
 {

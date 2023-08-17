@@ -1,11 +1,12 @@
 package net.minecraft.client.settings;
 
-import java.io.File;
 import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.CompressedStreamTools;
 import net.minecraft.nbt.NBTTagCompound;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.io.File;
 
 public class CreativeSettings
 {

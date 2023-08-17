@@ -1,11 +1,12 @@
 package net.minecraft.entity.monster;
 
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityCreature;
 import net.minecraft.entity.passive.IAnimals;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
 
 public abstract class EntityGolem extends EntityCreature implements IAnimals
 {

@@ -1,6 +1,5 @@
 package net.minecraft.client.network;
 
-import cn.floatingpoint.min.MIN;
 import cn.floatingpoint.min.management.Managers;
 import cn.floatingpoint.min.system.hyt.packet.CustomPacket;
 import cn.floatingpoint.min.system.module.impl.misc.impl.AutoText;
@@ -36,7 +35,10 @@ import net.minecraft.client.settings.GameSettings;
 import net.minecraft.client.util.RecipeBookClient;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.*;
-import net.minecraft.entity.ai.attributes.*;
+import net.minecraft.entity.ai.attributes.AbstractAttributeMap;
+import net.minecraft.entity.ai.attributes.AttributeModifier;
+import net.minecraft.entity.ai.attributes.IAttributeInstance;
+import net.minecraft.entity.ai.attributes.RangedAttribute;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.item.*;
 import net.minecraft.entity.monster.EntityGuardian;

@@ -1,33 +1,9 @@
 package net.minecraft.client.renderer;
 
-import java.util.List;
-import javax.annotation.Nullable;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockDirt;
-import net.minecraft.block.BlockDoublePlant;
-import net.minecraft.block.BlockFlower;
-import net.minecraft.block.BlockHugeMushroom;
-import net.minecraft.block.BlockPlanks;
-import net.minecraft.block.BlockPrismarine;
-import net.minecraft.block.BlockQuartz;
-import net.minecraft.block.BlockRedSandstone;
-import net.minecraft.block.BlockSand;
-import net.minecraft.block.BlockSandStone;
-import net.minecraft.block.BlockSilverfish;
-import net.minecraft.block.BlockStone;
-import net.minecraft.block.BlockStoneBrick;
-import net.minecraft.block.BlockStoneSlab;
-import net.minecraft.block.BlockStoneSlabNew;
-import net.minecraft.block.BlockTallGrass;
-import net.minecraft.block.BlockWall;
+import net.minecraft.block.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
-import net.minecraft.client.renderer.block.model.BakedQuad;
-import net.minecraft.client.renderer.block.model.IBakedModel;
-import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
-import net.minecraft.client.renderer.block.model.ItemTransformVec3f;
-import net.minecraft.client.renderer.block.model.ModelManager;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.model.*;
 import net.minecraft.client.renderer.color.ItemColors;
 import net.minecraft.client.renderer.texture.TextureManager;
 import net.minecraft.client.renderer.texture.TextureMap;
@@ -46,7 +22,6 @@ import net.minecraft.item.EnumDyeColor;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemFishFood;
 import net.minecraft.item.ItemStack;
-import net.optifine.Config;
 import net.minecraft.tileentity.TileEntityStructure;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.EnumFacing;
@@ -55,10 +30,14 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3i;
 import net.minecraft.world.World;
+import net.optifine.Config;
 import net.optifine.CustomColors;
 import net.optifine.CustomItems;
 import net.optifine.shaders.Shaders;
 import net.optifine.shaders.ShadersRender;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class RenderItem implements IResourceManagerReloadListener
 {

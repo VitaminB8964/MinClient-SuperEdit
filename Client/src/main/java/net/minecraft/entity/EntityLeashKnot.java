@@ -1,7 +1,5 @@
 package net.minecraft.entity;
 
-import java.util.List;
-import javax.annotation.Nullable;
 import net.minecraft.block.BlockFence;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.SoundEvents;
@@ -12,6 +10,9 @@ import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class EntityLeashKnot extends EntityHanging
 {

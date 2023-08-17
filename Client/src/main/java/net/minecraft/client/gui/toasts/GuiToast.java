@@ -1,15 +1,16 @@
 package net.minecraft.client.gui.toasts;
 
 import com.google.common.collect.Queues;
-import java.util.Arrays;
-import java.util.Deque;
-import javax.annotation.Nullable;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.RenderHelper;
 import net.minecraft.util.math.MathHelper;
+
+import javax.annotation.Nullable;
+import java.util.Arrays;
+import java.util.Deque;
 
 public class GuiToast extends Gui
 {

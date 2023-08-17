@@ -4,12 +4,6 @@ import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import io.netty.handler.codec.DecoderException;
 import io.netty.handler.codec.EncoderException;
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
-import javax.annotation.Nullable;
 import net.minecraft.crash.CrashReport;
 import net.minecraft.crash.CrashReportCategory;
 import net.minecraft.entity.Entity;
@@ -21,6 +15,13 @@ import net.minecraft.world.biome.Biome;
 import org.apache.commons.lang3.ObjectUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.annotation.Nullable;
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class EntityDataManager
 {

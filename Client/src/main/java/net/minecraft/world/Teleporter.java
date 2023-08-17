@@ -3,7 +3,6 @@ package net.minecraft.world;
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
 import it.unimi.dsi.fastutil.objects.ObjectIterator;
-import java.util.Random;
 import net.minecraft.block.BlockPortal;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.state.pattern.BlockPattern;
@@ -14,6 +13,8 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.Random;
 
 public class Teleporter
 {

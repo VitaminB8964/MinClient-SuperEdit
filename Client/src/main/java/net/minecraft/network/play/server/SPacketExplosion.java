@@ -1,13 +1,14 @@
 package net.minecraft.network.play.server;
 
 import com.google.common.collect.Lists;
-import java.io.IOException;
-import java.util.List;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.play.INetHandlerPlayClient;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
+
+import java.io.IOException;
+import java.util.List;
 
 public class SPacketExplosion implements Packet<INetHandlerPlayClient>
 {

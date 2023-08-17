@@ -1,7 +1,5 @@
 package net.minecraft.entity.monster;
 
-import java.util.Random;
-import javax.annotation.Nullable;
 import net.minecraft.entity.EntityFlying;
 import net.minecraft.entity.EntityLiving;
 import net.minecraft.entity.EntityLivingBase;
@@ -28,6 +26,9 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.EnumDifficulty;
 import net.minecraft.world.World;
 import net.minecraft.world.storage.loot.LootTableList;
+
+import javax.annotation.Nullable;
+import java.util.Random;
 
 public class EntityGhast extends EntityFlying implements IMob
 {

@@ -1,7 +1,6 @@
 package net.minecraft.entity.item;
 
 import com.google.common.base.Optional;
-import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.boss.EntityDragon;
 import net.minecraft.init.Blocks;
@@ -15,6 +14,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldProviderEnd;
 import net.minecraft.world.end.DragonFightManager;
+
+import javax.annotation.Nullable;
 
 public class EntityEnderCrystal extends Entity
 {

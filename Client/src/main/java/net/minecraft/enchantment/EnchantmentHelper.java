@@ -2,11 +2,6 @@ package net.minecraft.enchantment;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Map.Entry;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.EnumCreatureAttribute;
@@ -22,6 +17,12 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.util.Util;
 import net.minecraft.util.WeightedRandom;
 import net.minecraft.util.math.MathHelper;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Random;
 
 public class EnchantmentHelper
 {
