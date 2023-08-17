@@ -1,6 +1,6 @@
 ![LOGO.png](.github/LOGO.png)
 # MIN(Minecraft in Netease)
-一个完全免费开源的客户端软件
+一个对于Min的修改版本,添加了不合法功能
 
 ### 使用时的注意事项
 1. 使用该产品即默认您接受该产品许可证(GNU AFFERO GENERAL PUBLIC LICENSE)
@@ -11,5 +11,6 @@
 推荐Intellij IDEA，自动构建
 
 ## Made by FloatingPoint-MC <3
+## Edit by PotatoChipsCN
 
 ## 警告: MIN官方版隶属于FloatingPoint-MC组织且仅隶属于该组织。对于任何一切盗用、侵权行为，我们有权利追究其法律责任。
