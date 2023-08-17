@@ -8,7 +8,6 @@ import cn.floatingpoint.min.system.module.impl.boost.BoostModule;
 import cn.floatingpoint.min.system.module.impl.boost.impl.*;
 import cn.floatingpoint.min.system.module.impl.misc.MiscModule;
 import cn.floatingpoint.min.system.module.impl.misc.impl.*;
-import cn.floatingpoint.min.system.module.impl.misc.impl.AutoBan;
 import cn.floatingpoint.min.system.module.impl.render.RenderModule;
 import cn.floatingpoint.min.system.module.impl.render.impl.*;
 import cn.floatingpoint.min.system.module.value.Value;
