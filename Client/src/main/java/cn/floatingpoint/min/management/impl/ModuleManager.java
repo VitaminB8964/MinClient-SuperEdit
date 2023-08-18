@@ -41,6 +41,7 @@ public class ModuleManager implements Manager {
         boostModules.put("Sprint", new Sprint());
         boostModules.put("Reach",new Reach());
         boostModules.put("InvWalk",new InvWalk());
+        boostModules.put("Eagle",new Eagle());
         boostModules.put("WTap",new WTap());
         boostModules.put("AutoBan", new AutoBan());
         boostModules.put("FastLoad", new FastLoad());

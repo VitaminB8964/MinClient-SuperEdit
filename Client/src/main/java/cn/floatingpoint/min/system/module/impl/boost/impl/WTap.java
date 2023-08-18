@@ -1,7 +1,8 @@
 package cn.floatingpoint.min.system.module.impl.boost.impl;
 
 import cn.floatingpoint.min.system.module.impl.boost.BoostModule;
-import net.minecraft.network.play.client.CPacketEntityAction;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.settings.KeyBinding;
 /**
  * @ProjectName MIN
  * @Author PotatochipsCN
@@ -23,13 +24,11 @@ public class WTap extends BoostModule {
         if (mc.player.attackedOther){
 
             if (mc.player.isSprinting()){
-                mc.player.connection.sendPacket(new CPacketEntityAction(mc.player,CPacketEntityAction.Action.STOP_SPRINTING));
+                KeyBinding.setKeyBindState(Minecraft.getMinecraft().gameSettings.keyBindSprint.getKeyCode(),false);
             }
-
-            mc.player.connection.sendPacket(new CPacketEntityAction(mc.player, CPacketEntityAction.Action.START_SPRINTING));
-            mc.player.connection.sendPacket(new CPacketEntityAction(mc.player,CPacketEntityAction.Action.STOP_SPRINTING));
-            mc.player.connection.sendPacket(new CPacketEntityAction(mc.player, CPacketEntityAction.Action.START_SPRINTING));
-
+            KeyBinding.setKeyBindState(Minecraft.getMinecraft().gameSettings.keyBindSprint.getKeyCode(),true);
+            KeyBinding.setKeyBindState(Minecraft.getMinecraft().gameSettings.keyBindSprint.getKeyCode(),false);
+            KeyBinding.setKeyBindState(Minecraft.getMinecraft().gameSettings.keyBindSprint.getKeyCode(),true);
         }
     }
 }

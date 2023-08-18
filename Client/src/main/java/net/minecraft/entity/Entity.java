@@ -1,5 +1,7 @@
 package net.minecraft.entity;
 
+import cn.floatingpoint.min.management.Managers;
+import cn.floatingpoint.min.system.module.impl.boost.impl.Eagle;
 import cn.floatingpoint.min.system.module.impl.render.impl.Particles;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
@@ -10,6 +12,8 @@ import net.minecraft.block.material.EnumPushReaction;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.state.pattern.BlockPattern;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.command.CommandResultStats;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.crash.CrashReport;
@@ -730,17 +734,19 @@ public abstract class Entity implements ICommandSender {
             double d2 = x;
             double d3 = y;
             double d4 = z;
-
-            if ((type == MoverType.SELF || type == MoverType.PLAYER) && this.onGround && this.isSneaking() && this instanceof EntityPlayer) {
-                for (double d5 = 0.05D; x != 0.0D && this.world.getCollisionBoxes(this, this.getEntityBoundingBox().offset(x, -this.stepHeight, 0.0D)).isEmpty(); d2 = x) {
-                    if (x < 0.05D && x >= -0.05D) {
+            boolean sb = this.onGround && this.isSneaking() || Managers.moduleManager.boostModules.get("Eagle").isEnabled() && this.onGround;
+            if ((type == MoverType.SELF || type == MoverType.PLAYER)  && sb && this instanceof EntityPlayer) {
+                    for (double d5 = 0.05D; x != 0.0D && this.world.getCollisionBoxes(this, this.getEntityBoundingBox().offset(x, -this.stepHeight, 0.0D)).isEmpty(); d2 = x) {
+                      if (x < 0.05D && x >= -0.05D) {
                         x = 0.0D;
                     } else if (x > 0.0D) {
                         x -= 0.05D;
+                          KeyBinding.setKeyBindState(Minecraft.getMinecraft().gameSettings.keyBindSneak.getKeyCode(), false);
                     } else {
                         x += 0.05D;
                     }
                 }
+
 
                 for (; z != 0.0D && this.world.getCollisionBoxes(this, this.getEntityBoundingBox().offset(0.0D, -this.stepHeight, z)).isEmpty(); d4 = z) {
                     if (z < 0.05D && z >= -0.05D) {
